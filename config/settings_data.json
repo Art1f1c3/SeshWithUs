@@ -81,20 +81,15 @@
               "hero_slide": "shopify://shop_images/1.jpg"
             }
           },
-          "image_6NP73k": {
-            "type": "image",
-            "settings": {
-              "hero_slide": "shopify://shop_images/3_f74d087a-e9bf-4c14-a324-407a814d56b3.jpg"
-            }
-          },
           "slider-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "hero_slide": "shopify://shop_images/2.jpg"
+            }
           }
         },
         "block_order": [
           "image_xTKHA9",
-          "image_6NP73k",
           "slider-0"
         ],
         "settings": {
