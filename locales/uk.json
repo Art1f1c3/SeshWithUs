@@ -1340,6 +1340,30 @@
           "retryable_error_message": "Спробуйте підтвердити вибір гаманця ще раз.",
           "terminal_error_title": "Підключення гаманця завершено",
           "terminal_error_message": "Поверніться та відкрийте Shop Pay знову."
+        },
+        "cancelled": {
+          "title": "Вибір скасовано",
+          "message": "Жодних даних гаманця не було передано і жодної покупки не було здійснено."
+        },
+        "empty": {
+          "title": "Збережених карток немає",
+          "message": "У цьому гаманці Shop Pay немає збережених карток."
+        },
+        "ineligible": {
+          "title": "Немає відповідних карток",
+          "message": "Жодну зі збережених карток не можна використати для цієї покупки."
+        },
+        "expired": {
+          "title": "Термін дії цієї сесії гаманця вичерпано",
+          "message": "Поверніться до партнерського застосунку та почніть покупку знову."
+        },
+        "revoked": {
+          "title": "Shop Pay більше не підключений",
+          "message": "Перед продовженням відновіть з'єднання Shop Pay у партнерській програмі."
+        },
+        "error": {
+          "title": "Гаманець Shop Pay не вдалося завантажити",
+          "message": "Поверніться до Hatch і спробуйте знову відкрити Shop Pay."
         }
       },
       "processing": {
@@ -1497,6 +1521,142 @@
         "email_or_phone_invalid": "Введіть дійсну електронну пошту або номер мобільного телефону",
         "address_first_name_blank": "Введіть ім'я",
         "address_first_name_too_long": "Ім'я надто довге (максимум 255 символів)"
+      },
+      "order_errors": {
+        "creation_failure": "Виникла проблема під час створення вашого замовлення. Спробуйте ще раз або зв'яжіться з нами для отримання додаткової інформації.",
+        "network_failure": "Ваше замовлення не вдалося відправити через помилку мережі. Перевірте з'єднання та спробуйте ще раз.",
+        "inventory_reservation_failure": "Деяких товарів більше немає в наявності."
+      },
+      "session_errors": {
+        "session_not_unique": "Виникла проблема з обробкою вашого замовлення. Оновіть цю сторінку, щоб повернутися до магазину.",
+        "session_already_finished": "Це замовлення вже було надіслано. Ви можете повернутися до магазину, щоб розпочати нове замовлення."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Виникла проблема з обробкою вашого замовлення. Спробуйте ще раз за кілька хвилин."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Закрито",
+        "business_hours": "Години роботи",
+        "no_business_hours": "Немає даних про години роботи",
+        "open_twenty_four_hours": "Відкрито цілодобово",
+        "title": "Пункт самовивозу",
+        "or": "або",
+        "search_button": "Пошук",
+        "address_label": "Адреса",
+        "selector_tabs": "Вибір пункту видачі",
+        "selector_tab_map": "Мапа",
+        "selector_tab_list": "Список",
+        "could_not_resolve_address": "Вашу адресу не вдалося знайти. Спробуйте ще раз або використайте іншу адресу",
+        "no_pickup_points_near_you": "Не знайдено пунктів самовивозу поблизу вибраної адреси",
+        "no_pickup_points_near_location": "Пунктів видачі поблизу вашого місцезнаходження не знайдено",
+        "pickup_unavailable_banner_title": {
+          "one": "Немає доступних пунктів самовивозу для вашого товару",
+          "other": "Немає доступних пунктів самовивозу для ваших товарів"
+        },
+        "no_pickup_points_found": "Не знайдено пунктів самовивозу",
+        "paginator": {
+          "next_accessibility_label": "Наступна сторінка",
+          "previous_accessibility_label": "Попередня сторінка",
+          "header": {
+            "one": "Відображено %{first} - %{last} з %{count} точок",
+            "other": "Показано %{first} - %{last} з %{count} балів"
+          },
+          "selected_pickup_point_label": {
+            "one": "Точка %{pickup_point_index} з %{count}",
+            "other": "%{pickup_point_index} з %{count} пунктів"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} з %{count} балу",
+            "other": "%{first} - %{last} з %{count} балів"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} пунктів видачі замовлень поблизу вашого місцезнаходження",
+          "other": "%{count} точок самовивозу поблизу"
+        },
+        "change": "Змінити місцезнаходження",
+        "waiting_on_pickup_point_location_notice": "Пошук пунктів самовивозу...",
+        "geolocation": {
+          "shared_location_button": "Використовувати моє місцезнаходження",
+          "errors": {
+            "unsuported_by_browser": "Ваш браузер не підтримує визначення геопозиції. Спробуйте ще раз або скористайтеся іншим браузером.",
+            "permission_not_allowed": "Дозволити ділитися вашим місцезнаходженням.",
+            "permission_denied": "Не вдалося отримати ваше місцезнаходження. Спробуйте ще раз."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Виникла проблема з оформленням замовлення",
+          "message": "Оновіть цю сторінку або повторіть спробу за кілька хвилин",
+          "action": {
+            "cta": "Оновити сторінку"
+          },
+          "request_id": "Ідентифікатор запиту: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Цей магазин захищений паролем",
+          "customer_account_required": "Для завершення замовлення потрібен обліковий запис клієнта",
+          "cart_completed": "Ця оплата вже виконана",
+          "invalid_cart": "Кошик більше не дійсний",
+          "not_authorized": "Автентифікація при оформленні замовлення не вдалася. Перевірте облікові дані програми",
+          "killswitch_enabled": "Оплата тимчасово недоступна",
+          "policy_violation": "Неможливо завершити оформлення замовлення через обмеження конфігурації політики",
+          "unrecoverable_failure": "Неможливо завантажити сторінку оформлення замовлення. Спробуйте ще раз."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Повернутися до кошика",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, щоб оновити кількість",
+        "subscription_changed": "Змінено одну з ваших підписок.",
+        "company_location_changed": "Ваш кошик оновлено. Перегляньте своє замовлення перед тим, як надіслати його.",
+        "company_location_changed_product_removed": "Ваш кошик оновлено, оскільки деякі товари недоступні за цим місцезнаходженням. Перегляньте своє замовлення перед відправкою.",
+        "violations_title": "{{violation}} відсутній або недійсний",
+        "individual_violations_title": {
+          "DeliveryViolations": "Адреса доставки",
+          "PaymentViolations": "Платіжна адреса",
+          "OtherViolations": "Відомості про замовлення",
+          "UnhandledViolations": "Відомості про замовлення"
+        },
+        "all_violations_content": "Зателефонуйте або {{emailLink}} нам, щоб оновити цю інформацію та завершити ваше замовлення:",
+        "all_violations_email_link": "електронна пошта",
+        "editable_shipping_address_violations_message_title": "Додайте цю інформацію, щоб завершити замовлення:",
+        "editable_shipping_address_violations_message_footer": "Щоб остаточно оновити адресу цього місця, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "зв'яжіться з нами",
+        "delivery_address_validation_errors_banner": {
+          "title": "Адреса доставки недійсна",
+          "text_html": "Зверніться до нас, щоб змінити свою адресу",
+          "contact_us": "Зв'яжіться з нами",
+          "use_different_address": "Використовувати іншу адресу доставки"
+        },
+        "shipping_address_incomplete_title": "Адреса доставки неповна",
+        "calculating_shipping": "Доставка ще розраховується. Спробуйте ще раз за кілька секунд. Кошти з вас не стягувалися.",
+        "calculating_taxes": "Податки ще розраховуються. Повторіть спробу через кілька секунд. Кошти з вас не стягувалися.",
+        "generic_processing_error": {
+          "title": "Виникла проблема з обробкою вашого замовлення",
+          "body": "З вас не стягнуто плату. Спробуйте ще раз або використайте інший спосіб оплати."
+        },
+        "payment_method_not_available_with_payment_terms": "Вибраний спосіб оплати більше недоступний, оскільки оплата за це замовлення тепер здійснюється на умовах {{paymentTerms}}",
+        "payment_method_not_available_with_fulfillment_terms": "Обраний спосіб оплати більше недоступний, оскільки оплата цього замовлення тепер здійснюється після виконання",
+        "payment_method_not_available_with_fixed_terms": "Обраний вами спосіб оплати більше недоступний, оскільки оплата за це замовлення здійснюється пізніше",
+        "payment_method_not_available_with_review_requirement": "Обраний вами спосіб оплати більше недоступний, оскільки оплата буде здійснюватися після підтвердження замовлення.",
+        "contact_information": {
+          "title": "Контактна інформація недійсна",
+          "header": "Щоб оновити свою інформацію, {{emailLink}}.",
+          "email_link": "зв'яжіться з нами"
+        },
+        "validation_errors_banner": {
+          "heading": {
+            "one": "Є {{count}} помилка:",
+            "other": "Виникло {{count}} помилок:"
+          },
+          "section_label": {
+            "delivery": "Доставка",
+            "contact": "Контакти",
+            "payment": "Оплата",
+            "billing": "Рахунки"
+          }
+        }
       }
     },
     "errors": {
