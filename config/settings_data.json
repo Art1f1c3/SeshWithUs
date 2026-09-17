@@ -157,8 +157,7 @@
     },
     "content_for_index": [
       "rich-text",
-      "featured-collection",
-      "newsletter-signup"
+      "featured-collection"
     ]
   },
   "presets": {
