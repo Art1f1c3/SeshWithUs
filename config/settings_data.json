@@ -127,7 +127,7 @@
         "type": "sidebar-menu",
         "settings": {
           "sidebar_top_link_list": "main-menu",
-          "sidebar_bottom_link_list": "footer"
+          "sidebar_bottom_link_list": ""
         }
       },
       "action-bar": {
