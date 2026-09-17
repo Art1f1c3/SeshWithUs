@@ -86,15 +86,23 @@
             "settings": {
               "hero_slide": "shopify://shop_images/2.jpg"
             }
+          },
+          "image_7Pmew6": {
+            "type": "image",
+            "settings": {
+              "hero_slide": "shopify://shop_images/3_25f267d1-4aff-49b0-b6c7-994233b753a6.jpg"
+            }
           }
         },
         "block_order": [
           "image_xTKHA9",
-          "slider-0"
+          "slider-0",
+          "image_7Pmew6"
         ],
         "settings": {
           "hero_text_color": "#ffffff",
-          "hero_logo_type": "text",
+          "hero_logo_type": "",
+          "hero-logo": "shopify://shop_images/logo_white.png",
           "hero_logo_max_width": "400",
           "hero_overlay_color": "#000000",
           "hero_overlay_amount": "0.20"
