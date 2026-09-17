@@ -130,6 +130,130 @@
           },
           "checkout_source": {
             "revoked": "Ця каса більше недоступна."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Кошик повинен містити лише один рядок доставки.",
+            "wrong_number_of_delivery_lines": "Для кожної групи товарів має бути вказана лінія доставки.",
+            "external_delivery_promise_error": "Помилка отримання даних про термін зовнішньої доставки.",
+            "options_instructions_invalid": "Зазначені інструкції не відповідають очікуваному шаблону.",
+            "destination_address_required": "Щоб продовжити, потрібна адреса призначення.",
+            "pickup_points_unavailable": "Пункти самовивозу наразі недоступні.",
+            "local_pickup_delivery_line_detail_changed": "Поточну стратегію самовивозу необхідно змінити, щоб продовжувати роботу.",
+            "selected_pickup_option_no_longer_available": "Раніше вибраний варіант отримання замовлення більше недоступний.",
+            "local_pickup_no_delivery_strategy_available": "Не знайдено стратегії доставки із самовивозом.",
+            "origin_location_id_required": "Ідентифікатор вихідної локації є обов'язковим, якщо запитується спосіб доставки RETAIL.",
+            "invalid_origin_location_id": "Не вдалося знайти місцезнаходження, що відповідає ID початкового місцезнаходження.",
+            "origin_location_id_not_allowed": "Запитувані способи доставки не підтримують ідентифікатор початкового місцезнаходження.",
+            "auto_fulfill_not_allowed": "Цей сеанс не має дозволу на перевизначення поведінки виконання.",
+            "auto_fulfill_required": "Автоматичне виконання замовлення потрібне, якщо запитується метод доставки RETAIL.",
+            "prefetch_shipping_rates_used": "Попередньо завантажені тарифи доставки ніколи не повинні повертати тарифи.",
+            "fulfillment_constraints_not_satisfied": "Одне або кілька обмежень виконання не було задоволено.",
+            "must_fulfill_from_constraint_not_satisfied": "Умови виконання не дотримано, оскільки товари не можуть бути виконані з необхідних місць.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Обмеження виконання замовлення не дотримано, оскільки позиції не можуть бути виконані з однієї локації.",
+            "delivery_strategy_conditions_not_satisfied": "Для цього місцезнаходження доступні стратегії доставки, але їхні умови не виконано.",
+            "out_of_stock_at_origin_location": "На вихідному складі товару немає.",
+            "invalid_signature": "Недійсний підпис знижки.",
+            "mixed_destination_countries": "Доставка недоступна, оскільки лінії доставки проходять через кілька країн."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Знижки не дозволені в магазинах B2B.",
+            "mixed_destination_countries": "Знижки недоступні, оскільки лінії доставки проходять через кілька країн.",
+            "custom_discount_not_honoured": "Застосовану спеціальну знижку не було враховано.",
+            "unsupported_expectation": "Наданий рядок знижки містив очікування, яке політика не змогла інтерпретувати.",
+            "additional_requested_discount_code_discarded": "{{code}} дійсний, але не застосовується. Перевірте умови знижки.",
+            "additional_requested_discount_discarded": "Ваша знижка дійсна, але незастосовна. Перевірте умови знижки.",
+            "allocations_mismatch": "Ваш код знижки змінився. Перевірте свій кошик і спробуйте ще раз.",
+            "discount_code_not_honoured": "%{discount_rejection_message}",
+            "discount_title_too_long": "Назва знижки не може перевищувати 255 символів."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Податки, пов'язані з вашим замовленням, змінилися. Перегляньте та спробуйте ще раз.",
+            "unresolvable_tax_terms": "Запропоновані умови є неприйнятними в поточному контексті переговорів.",
+            "delivery_price_is_abstract": "Відповідна ціна доставки є абстрактною.",
+            "tax_inclusivity_mismatch": "Перегляньте умови з конкретним значенням totalTaxAndDutyAmount або totalAmountIncludedInTarget.",
+            "mixed_tax_inclusivity_not_supported": "Рядки податків мають бути або всі з урахуванням податків, або всі без урахування податків.",
+            "tax_exemption_not_supported": "Податкові пільги не підтримуються для поточної сесії перемовин.",
+            "delivery_tax_exemption_not_supported": "Звільнення від податків для ліній доставки наразі не підтримується.",
+            "proposed_allocations_required": "Відсутнє поле \"запропоновані розподіли\".",
+            "merchandise_terms_must_be_defined": "Умови щодо товарів мають бути визначені.",
+            "delivery_terms_must_be_defined": "Умови доставки повинні бути визначені.",
+            "merchandise_discount_terms_must_be_defined": "Потрібно визначити умови знижки на товар.",
+            "delivery_discount_terms_must_be_defined": "Умови знижки на доставку мають бути визначені.",
+            "allocated_required": "Відсутнє поле \"allocated\".",
+            "value_required": "Відсутнє поле \"value\".",
+            "line_splits_not_supported": "Поле «позиції товарів» має бути розділено таким чином, щоб кожна позиція містила лише один компонент рядка в пропозиції продавця."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ручні платежі недозволені в магазинах B2B.",
+            "positive_amount_expected": "Сума до сплати має бути більшою за 0.",
+            "total_amount_mismatch": "Загальна сума до сплати не відповідає сумі платежів.",
+            "subscription_terms_not_accepted": "Умови підписки не прийняті.",
+            "missing_session_id": "Відсутня інформація про сесію кредитної картки.",
+            "gateway_not_supported": "Платіжний шлюз не підтримує зберігання платіжного методу.",
+            "credit_card_last_name_required": "Поле «прізвище» не може бути пустим.",
+            "credit_card_update_failed": "Оновлення кредитної картки не вдалося.",
+            "invalid_address_type": "Наданий тип адреси неприпустимий для цього способу оплати.",
+            "missing_retail_attributions": "Для платежів кредитною карткою, що вводяться вручну, потрібна атрибуція роздрібної торгівлі.",
+            "unexpected_retail_attributions": "Атрибути роздрібної торгівлі неочікувано надані для оплати кредитною карткою.",
+            "invalid_card_source": "Ця сесія не має дозволу використовувати це джерело карток.",
+            "wallet_content_missing": "Вміст гаманця відсутній.",
+            "payment_instrument_not_found": "Не вдалося знайти спосіб оплати",
+            "unauthorized_capture_method": "Налаштування методу захоплення платежів заборонено.",
+            "saved_payment_methods_not_allowed": "Збережені платіжні засоби заборонено.",
+            "saved_payment_methods_not_enabled": "Збережені способи оплати недоступні для цього магазину.",
+            "saved_payment_methods_cvv_verification_disabled": "Обраний спосіб оплати потребує перевірки CVV, яка не активована для цього магазину. Оберіть інший спосіб оплати.",
+            "store_credit_not_enabled": "Кредит магазину не ввімкнено для цього магазину.",
+            "store_credit_account_not_found": "Рахунок кредиту магазину не знайдено.",
+            "store_credit_account_mismatch": "Рахунок кредиту магазину не відповідає ідентифікаційним даним покупця.",
+            "store_credit_mismatched_currency": "Валюта рахунку магазинних кредитів не збігається з валютою замовлення.",
+            "store_credit_insufficient_funds": "На рахунку кредиту магазину недостатньо коштів.",
+            "store_credit_buying_gift_card": "Ви не можете використовувати кредит магазину для придбання подарункової картки.",
+            "gift_cards_not_allowed_for_b2b": "Подарункові картки заборонені в магазинах B2B.",
+            "method_required": "Необхідно запропонувати спосіб оплати.",
+            "paypal_express_address_invalid": "PayPal повернув недійсну адресу."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Магазин не приймає чайових.",
+            "only_one_tip_line_allowed": "Кілька рядків підказок не підтримуються.",
+            "tips_not_allowed_for_b2b": "У B2B магазинах чайові не дозволяються.",
+            "currency_change_reset": "Чайові скинуто через зміну валюти.",
+            "tips_not_allowed_for_deferred_purchase_options": "Чайна плата ще не підтримується для відкладених опцій покупки."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Цей чернетковий заказ не існує в поточному магазині.",
+            "staff_member_not_exist": "Цього співробітника немає в поточному магазині.",
+            "location_not_exist": "Цього місця не існує в поточному магазині.",
+            "point_of_sale_device_not_exist": "Цей термінал продажу не існує в поточному магазині.",
+            "unresolvable_target_merchandise_lines": "Запропоновані атрибуції продажів нерозв'язні з огляду на поточний контекст перемовин."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Пропозиція вашого покупця має містити недискусійні умови.",
+            "invalid_signature": "{{target_terms}} має недійсний підпис."
+          },
+          "inventory": {
+            "missing_quantity_value": "Відсутнє поле кількості в позиціях замовлення покупця.",
+            "changing_behavior_not_allowed": "Цей клієнт не має дозволу на зміну поведінки інвентарю.",
+            "only_one_inventory_behavior_allowed": "Наразі дозволено лише одну інвентаризаційну поведінку для кожного оформлення замовлення."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Для цього касового апарату відмова від обов'язків заборонена."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Роздрібна атрибуція не дозволена для цього оформлення замовлення.",
+            "retail_attribution_required": "Для цього замовлення потрібна атрибуція роздрібної торгівлі."
+          },
+          "captcha": {
+            "metadata_missing": "Для оформлення замовлення необхідно пройти капчу.",
+            "metadata_mismatch": "Наданий провайдер капчі та тип не відповідають очікуваним значенням.",
+            "token_missing": "Для завершення оформлення замовлення необхідно надати токен captcha.",
+            "job_enqueue_failed": "Завдання перевірки капчі не вдалося додати до черги.",
+            "job_already_queued": "Перевірка капчі для цього токена вже поставлена в чергу.",
+            "token_expired": "Наданий токен капчі застарів. Щоб продовжити оформлення замовлення, пройдіть нову капчу.",
+            "token_invalid": "Наданий токен CAPTCHA недійсний. Для продовження оформлення замовлення пройдіть нову CAPTCHA.",
+            "token_not_valid_for_session": "Надана капча не може бути використана для цього оформлення замовлення."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Отримана сума має бути у валюті магазину."
           }
         },
         "full_price": "Повна ціна:",
