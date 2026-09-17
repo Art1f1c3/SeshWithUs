@@ -518,7 +518,16 @@
         "total_due_label": "Загальна сума до сплати",
         "total_paid_label": "Усього сплачено",
         "total_price_label": "Загальна ціна",
-        "total_outstanding_label": "Сума до сплати"
+        "total_outstanding_label": "Сума до сплати",
+        "lpm": {
+          "alipay": {
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} опрацює цей платіж як %{amount_due} %{processing_currency}, який Alipay конвертує в CNY",
+            "checkout_disclosure_charged_in_cny": "Магазин %{shop_name} опрацює цей платіж на суму %{amount_due} %{processing_currency}.",
+            "post_purchase_disclosure": "Переглянути суму в юанях в Alipay"
+          }
+        },
+        "pay_merchant_label": "Сплатити %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Ця знижка поширюється лише на товари за передплатою"
       },
       "payment": {
         "crypto_modal": {
@@ -631,6 +640,153 @@
         "purchase_options_subscription_cancel_text": "Ви можете скасувати підписку в будь-який час, перейшовши у свій обліковий запис або звернувшись до магазину.",
         "change_currency_section_description": "Оберіть валюту",
         "no_real_orders_dev_store": "Цей магазин не може приймати реальні замовлення або реальні платежі."
+      },
+      "shipping": {
+        "title": "Доставка",
+        "delivery_title": "Доставка",
+        "shipping_method_title": "Спосіб доставки",
+        "shipping_method_rollup_accessibility_label": "Варіанти способу доставки",
+        "shipping_method_one_time_purchase_group_title": "Одноразова покупка",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Перша партія",
+          "other": "Перші поставки"
+        },
+        "shipping_method_subscription_group_title": "Передплата",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Регулярна доставка",
+          "other": "Регулярні відправлення"
+        },
+        "subscription_shipping": "Доставка за передплатою",
+        "subscription_local_delivery": "Підписка на місцеву доставку",
+        "subscription_pickup": "Забір за передплатою",
+        "waiting_on_rate_notice": "Отримання доступних тарифів доставки…",
+        "waiting_on_pickup_location_notice": "Отримання доступних пунктів самовивозу…",
+        "no_rates_for_cart_or_destination_notice": "Для вашого кошика чи адреси немає доступних способів доставки",
+        "no_pickup_location_notice": "Принаймні один з ваших товарів недоступний для самовивозу",
+        "no_rates_for_country_notice": "Не вдалося знайти тарифи доставки для цієї адреси.",
+        "no_rates_contact_notice": "Зверніться до нас для отримання додаткової інформації",
+        "free_rate_label": "Безкоштовно",
+        "cheapest_rate_label": "Найдешевше",
+        "estimated_delivery_date": {
+          "one": "%{count} робочий день",
+          "other": "%{count} робочих днів"
+        },
+        "estimated_delivery_date_range": "від %{minimum} до %{maximum} робочих днів",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Очікувана доставка %{time}",
+        "estimated_delivery_time_range": "Орієнтовний час доставки: %{min_time}–%{max_time}",
+        "delivery_today": "Доставка сьогодні %{time}",
+        "delivery_tomorrow": "Доставка наступного дня %{time}",
+        "two_day_delivery": "Доставка за 2 дні %{time}",
+        "delivery": "Доставка о %{time}",
+        "delivery_to": "Доставка до",
+        "arrives_time": "Прибуває о %{time}",
+        "arrives_time_range": "Прибуває %{min_time}–%{max_time}",
+        "estimated_time": "Приблизно %{time}",
+        "estimated_time_range": "Приблизно %{min_time}–%{max_time}",
+        "default_description": "Відправлення протягом 1 робочого дня",
+        "unbranded_default_description": "Готовий до відправлення",
+        "unbranded_description_same_day": "Відправлення того ж робочого дня",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Відправляємо наступного робочого дня",
+          "other": "Відправлення протягом %{count} робочих днів"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Доставка через %{count} тиждень",
+          "other": "Доставка за %{count} тижні"
+        },
+        "shipping_line_phone_label": "Номер мобільного телефону (обов’язково)",
+        "shipping_line_phone": "Ваш кур'єр може використати цей номер, щоб зв'язатися з вами.",
+        "shipping_line_delivery_phone_label": "Номер мобільного телефону",
+        "shipping_line_delivery_phone": "Ми можемо зв'язатися з вами для надання оновлень щодо вашої доставки.",
+        "optional_shipping_line_delivery_instructions_label": "Інструкції з доставки (необов'язково)",
+        "shipping_line_delivery_instructions": "Введіть необхідну інформацію, як-от коди дверей або інструкції щодо місця доставки.",
+        "other_method": {
+          "zero": "Інших методів немає",
+          "one": "Доступно ще %{count} метод",
+          "other": "Доступно ще %{count} методів, починаючи з"
+        },
+        "shipping_rate_discounted_amount": "Було: %{original_amount}. Зараз: %{amount}",
+        "local_delivery": "Місцева доставка",
+        "prime_not_available": {
+          "default": "Доставка Prime недоступна для вашого замовлення. Ваші варіанти доставки оновлено."
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "Безкоштовна доставка ще за %{count} доставки",
+            "other": "Безкоштовна доставка ще на %{count} замовлень"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Безкоштовна доставка для %{count} відправлень",
+            "other": "Безкоштовна доставка для %{count} відправлень"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Безкоштовна доставка ще на %{count} доставку, далі — %{recurring_order_shipping_price}",
+            "other": "Безкоштовна доставка ще на %{count} замовлення, потім %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Безкоштовна доставка для %{count} відправлень, потім %{recurring_order_shipping_price}",
+            "other": "Безкоштовна доставка для %{count} відправлень, потім %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "Ще %{count} доставка за %{shipping_price}",
+            "other": "Ще %{count} доставки по %{shipping_price} кожна"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} доставка за %{shipping_price}",
+            "other": "Ще %{count} доставки по %{shipping_price} кожна"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Безкоштовна доставка протягом першого %{cycle}, далі %{recurring_order_shipping_price}",
+            "other": "Безкоштовна доставка протягом першого %{cycle}, далі %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} ще за %{count} доставку",
+            "other": "%{shipping_price} за ще %{count} доставoк (%{per_delivery_cost} за доставку)"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} за %{count} доставку",
+            "other": "%{shipping_price} за %{count} доставок (%{per_delivery_cost} за доставку)"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} за ще %{count} доставку, після чого — %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} за %{count} наступних доставок (по %{per_delivery_cost) з подальшою ціною %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} за %{count} доставку, після чого — %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} за %{count} доставок (%{per_delivery_cost}), потім %{recurring_order_shipping_price}"
+          },
+          "subscription_free_with_frequency_label": "Безкоштовна доставка %{delivery_frequency}",
+          "prepaid_delivery_frequency": {
+            "one": "за %{count} доставку",
+            "other": "для %{count} доставок"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "щодня",
+              "other": "кожні %{count} днів"
+            },
+            "week": {
+              "one": "щотижня",
+              "other": "що %{count} тижні"
+            },
+            "month": {
+              "one": "щомісяця",
+              "other": "кожні %{count} місяці"
+            },
+            "year": {
+              "one": "щороку",
+              "other": "кожні %{count} роки"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} за доставку",
+          "prepaid_shipping_price_label": "%{shipping_price} за доставку x %{delivery_interval_count}",
+          "initial_order_discounted": "Вартість першої доставки %{discounted_shipping_cost}, потім %{frequency_description}",
+          "prepaid_initial_order_discounted": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Вартість першої доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Спершу вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}, потім %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім %{shipping_price} %{billing_cycle}"
+        }
       }
     },
     "errors": {
