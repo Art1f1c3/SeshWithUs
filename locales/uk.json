@@ -127,7 +127,91 @@
             "customer_profile_access_restricted": "Оформлення замовлення не має дозволу на доступ до профілю клієнта.",
             "checkout_completion_target_is_invalid_proc": "Недійсна ціль завершення замовлення.",
             "buyer_identity_presentment_currency_does_not_match": "Виникла проблема з обробкою вашого замовлення. Спробуйте ще раз за кілька хвилин."
+          },
+          "checkout_source": {
+            "revoked": "Ця каса більше недоступна."
           }
+        },
+        "full_price": "Повна ціна:",
+        "title": "Оформлення замовлення - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Оформлення замовлення",
+        "loading": "Завантаження…",
+        "loading_title": "Оформлення замовлення - {{shopName}}",
+        "google_map_title": "Карти Google",
+        "confirm_order_button_label": "Підтвердити замовлення",
+        "submit_order_button_label": "Оформити замовлення",
+        "submit_for_review_button_label": "Надіслати на розгляд",
+        "submit_for_review_notice_label": "Оплата не буде здійснена, доки ваше замовлення не буде переглянуто",
+        "continue_to_payment_plans_button_label": "Перейти до тарифних планів",
+        "back_button_label": "Повернути",
+        "choose_delivery_strategy": "Оберіть спосіб доставки",
+        "autocomplete_zero_item": "Немає доступних товарів",
+        "autocomplete_powered_by_google": "На основі {{brandName}}",
+        "submit": "Надіслати",
+        "processing": "Обробка…",
+        "stepper": {
+          "increase": "Збільшити {{type}}",
+          "decrease": "Зменшення {{type}}",
+          "minimum_reached": "Досягнуто мінімуму в {{value}}",
+          "maximum_reached": "Досягнуто максимум {{value}}"
+        },
+        "remove_chip": "Видалити елемент",
+        "remove_item": "Видалити %{label}",
+        "remove_tag": "Видалити тег",
+        "dates": {
+          "weekdays": {
+            "monday": "Понеділок",
+            "tuesday": "Вівторок",
+            "wednesday": "Середа",
+            "thursday": "Четвер",
+            "friday": "П'ятниця",
+            "saturday": "Субота",
+            "sunday": "Неділя"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Мо",
+            "tuesday": "Ти",
+            "wednesday": "Ми",
+            "thursday": "То",
+            "friday": "Пт",
+            "saturday": "Са",
+            "sunday": "Пт"
+          },
+          "months": {
+            "january": "Січень",
+            "february": "Лютий",
+            "march": "Березень",
+            "april": "Квітень",
+            "may": "Травень",
+            "june": "Червень",
+            "july": "Липень",
+            "august": "Серпень",
+            "september": "Вересень",
+            "october": "Жовтень",
+            "november": "Листопад",
+            "december": "Грудень"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Показати попередній місяць, {{month}} {{year}}",
+          "show_next_month": "Показати наступний місяць, {{month}} {{year}}",
+          "range_start": "Початок діапазону",
+          "in_range": "В діапазоні",
+          "range_end": "Кінець діапазону"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Кластер із {{number}} маркерів",
+            "other": "Група з {{number}} маркерів"
+          }
+        },
+        "sheet": {
+          "expand": "Розгорнути"
+        },
+        "dropzone": {
+          "add_file": "Додати файл",
+          "invalid_file_type": "Тип файлу не підтримується",
+          "dragged_over": "Перетягніть файл для завантаження"
         }
       },
       "thank_you": {
@@ -1231,6 +1315,56 @@
         "draft_order_payment_due_on_fulfillment": "Ваш платіж буде нараховано після підтвердження та виконання замовлення.",
         "draft_order_deposit_due_later": "{{depositAmount}} буде стягнено при підтвердженні замовлення. Залишок коштів буде перераховано на умовах {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} буде сплачено після підтвердження вашого замовлення. Залишок буде сплачено після виконання вашого замовлення."
+      },
+      "embed": {
+        "header": {
+          "review_order": "Перегляньте замовлення"
+        },
+        "shipping": {
+          "shipping_options": "Переглянути всі варіанти доставки"
+        },
+        "payment": {
+          "payment_options": "Переглянути всі варіанти оплати"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Цей платіж більше не потрібен. Відвідайте сторінку замовлення, щоб дізнатися більше.",
+        "paid": "Цей платіж уже подано. Відвідайте сторінку замовлення для отримання додаткової інформації."
+      },
+      "contact": {
+        "title": "Інформація",
+        "address_title": "Адреса",
+        "shipping_used_as_billing_notice": "Ця адреса також буде використовуватися як ваша платіжна адреса для цього замовлення.",
+        "delivery_option_title": "Спосіб доставки",
+        "contact_method_title": "Контакти",
+        "email_label": "Електронний лист",
+        "email_rollup_accessibility_label": "Параметри електронної пошти",
+        "email_placeholder": "Електронний лист",
+        "email_or_phone_label": "Електронна пошта або номер мобільного телефону",
+        "email_or_phone_placeholder": "Електронна пошта або номер мобільного телефону",
+        "field_saved_label": "Збережено",
+        "field_tooltip_helper_text": "Використовується для підтвердження вашого замовлення та нагадувань про кошик",
+        "field_tooltip_accessibility_label": "Докладніше про те, як використовуються ваші контактні дані",
+        "stored_addresses_label": "Збережені адреси",
+        "available_addresses_label": "Доступні адреси",
+        "new_address_label": "Використайте нову адресу",
+        "first_name_label": "Ім'я",
+        "optional_first_name_label": "Ім’я (необов’язково)",
+        "last_name_label": "Прізвище",
+        "company_label": "Компанія",
+        "storefront_link": "вебсайт продавця",
+        "company_attention_label": "Компанія/Увага",
+        "optional_company_attention_label": "Компанія/Для уваги (необов'язково)",
+        "optional_company_label": "Компанія (необов’язково)",
+        "address1_label": "Адреса",
+        "street_name_label": "Вулиця",
+        "optional_street_name_label": "Вулиця (необов'язково)",
+        "street_number_label": "Номер будинку",
+        "optional_street_number_label": "Номер будинку (необов’язково)",
+        "address2_label": "Квартира, номер тощо.",
+        "optional_address2_label": "Квартира, номер, тощо (необов’язково)",
+        "neighborhood_label": "Район",
+        "optional_neighborhood_label": "Район (необов'язково)"
       }
     },
     "errors": {
