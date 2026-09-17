@@ -424,7 +424,8 @@
       },
       "split_delivery": {
         "pickup_items_count": {
-          "other": "Підібрати %{count} одиниць"
+          "other": "Підібрати %{count} одиниць",
+          "one": "Підібрати %{count} одиниць"
         },
         "ship_items_count": {
           "one": "Відправити %{count} позицію",
@@ -471,6 +472,25 @@
             "change_country": "Змінити країну"
           },
           "banner": "Спосіб доставки оновлено"
+        },
+        "accessibility": {
+          "status": {
+            "ship_separately": "%{items} буде надіслано окремо.",
+            "pickup_in_store": "%{items} буде забрано в магазині.",
+            "remove_items": "%{items} видалено з кошика."
+          }
+        },
+        "all_items": "Усі елементи",
+        "pickup_all_items": "Підберіть усі предмети",
+        "pickup_and_ship": "Забрати та доставити",
+        "ship_all_items": "Відправте всі товари",
+        "separate_pickup_email_notice": "Ви отримаєте окремого листа, коли ваше замовлення буде готове до видачі.",
+        "items_for_pickup": "Товари для самовивозу",
+        "items_for_shipping": "Предмети для відправлення",
+        "items_moved_to_shipping_toast": "Предмети, які неможливо забрати, було переміщено до відділу доставки",
+        "items_count": {
+          "one": "%{count} об'єкт",
+          "other": "%{count} позицій"
         }
       },
       "captcha": {
@@ -2074,6 +2094,152 @@
       },
       "notifications": {
         "title": "Сповіщення"
+      },
+      "review_address_modal": {
+        "title": "Перевірити адресу",
+        "subtitle": {
+          "one": "Це замовлення буде доставлено за адресою, наданою {{merchant}}.",
+          "other": "Це замовлення буде доставлено за адресою, наданою {{merchant}}. Виберіть адресу доставки."
+        },
+        "subtitle_no_match": "Ця адреса не відповідає жодній із ваших збережених адрес.",
+        "subtitle_must_use": "Ваше замовлення буде доставлено за цією адресою.",
+        "continue": "Продовжити з цією адресою",
+        "use_saved_address": "Використати іншу адресу",
+        "return_to_cart": "Повернутися до кошика"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Огляд",
+          "link_label": "{{partnerDisplayName}} Правила та умови"
+        }
+      },
+      "online_store_chat": {
+        "title": "Є питання? Зв'яжіться з нами"
+      },
+      "local_pickup": {
+        "title": "Розташування",
+        "location_address_search_label": "Адреса",
+        "location_address_search_placeholder": "%{postal_code_label} або адреса",
+        "location_closest": "Найближчий населений пункт із вашим товаром",
+        "location_closest_one_item": "Найближчий населений пункт із вашим товаром",
+        "location_closest_other_items": "Найближче місце, де є ваші товари",
+        "location_selected": "Ваше вибране місцезнаходження",
+        "location_information": {
+          "one": "Є %{count} локація з товаром поблизу вас",
+          "other": "Є %{count} складів неподалік"
+        },
+        "location_information_far_away": {
+          "one": "Знайдено %{count} місце розташування з вашим товаром",
+          "other": "Знайдено %{count} об'єктів з вашим товаром"
+        },
+        "location_information_far_away_one_item": {
+          "one": "Знайдено %{count} місце розташування з вашим товаром",
+          "other": "Знайдено %{count} об'єктів з вашим товаром"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Є %{count} локація з вашими речами",
+          "other": "Знайдено %{count} локацій з вашими речами"
+        },
+        "location_nearby": {
+          "one": "Поруч є %{count} заклад, де є ваш товар",
+          "other": "Поруч є %{count} закладів із вашим товаром"
+        },
+        "location_nearby_one_item": {
+          "one": "Поруч є %{count} заклад, де є ваш товар",
+          "other": "Поруч є %{count} закладів із вашим товаром"
+        },
+        "location_nearby_other_items": {
+          "one": "Поруч є %{count} заклад із вашими позиціями",
+          "other": "Поруч є %{count} закладів із вашими товарами"
+        },
+        "location_nearby_short": {
+          "one": "%{count} найближче місце, де є ваш товар",
+          "other": "%{count} найближчих об'єктів з вашим товаром"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} найближче місце, де є ваш товар",
+          "other": "%{count} найближчих об'єктів з вашим товаром"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} найближчих об’єктів з вашими речами",
+          "other": "%{count} розташувань поруч із вашими товарами"
+        },
+        "location_far_away": {
+          "one": "%{count} закладів із вашим товаром",
+          "other": "Місцеположення: %{count}"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} закладів із вашим товаром",
+          "other": "Місцеположення: %{count}"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} місцезнаходження з вашими речами",
+          "other": "Місцеположення: %{count} (Ваші речі)"
+        },
+        "toggle_location": "Змінити місцезнаходження",
+        "toggle_more_locations": {
+          "one": "Ще %{count} локація",
+          "other": "Ще %{count} локації"
+        },
+        "toggle_multiple_locations": "Ще %{count} закладів",
+        "pick_up_location": "Місце посадки",
+        "or": "АБО",
+        "cancel": "Скасувати",
+        "your_location": "ваше місцезнаходження",
+        "search_button": "Знайти магазини",
+        "no_stores_found": "Магазинів не знайдено",
+        "all_stores_far_away": {
+          "title": "Найближчі місцезнаходження розташовані за понад %{distance}",
+          "title_with_item": {
+            "one": "Найближчий магазин, де є цей товар, розташований на відстані понад %{distance} від %{location}",
+            "other": "Найближче відділення з вашими товарами знаходиться на відстані понад %{distance} від %{location}"
+          },
+          "title_with_location": "Найближче місцезнаходження на відстані понад %{distance} від %{location}",
+          "title_with_specific_location": "Найближчий магазин, де є цей товар, знаходиться на відстані більше ніж %{distance} від %{location}",
+          "description": "Виберіть місце розташування або %{ship_to_address_link}",
+          "description_with_location": "%{change_location_link} або %{ship_to_address_link}",
+          "ship_to_address_link": "доставити за адресою",
+          "change_location_link": "Змінити місцезнаходження"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Ваше раніше обране місце більше недоступне",
+          "description": "Ми вибрали найближчий пункт, де є ваші товари"
+        },
+        "could_not_resolve_address": "Вашу адресу не вдалося знайти. Спробуйте ще раз або використайте іншу адресу",
+        "paginator": {
+          "accessibility_label": "Розбиття на сторінки при самовивозі",
+          "previous": "Попередня сторінка",
+          "next": "Наступна сторінка",
+          "label": {
+            "one": "%{first} - %{last} з %{count} магазину",
+            "other": "%{first} - %{last} з %{count} магазинів"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Показати ще %{count} розташування",
+          "other": "Показати ще %{count} розташувань"
+        },
+        "no_pickup_locations_found": "Пункти видачі не знайдено",
+        "pickup_unavailable_banner_title": {
+          "one": "Немає об'єктів з вашим товаром",
+          "other": "Немає локацій з вашими елементами"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Немає магазинів у %{country} з вашим товаром",
+          "other": "У %{country} немає відділень із вашими товарами"
+        },
+        "pickup_unavailable_banner_body": {
+          "try_different_location": "Спробуйте інше місце",
+          "ship_to_address": "доставити за адресою",
+          "there_are_no_stores": "За вашою адресою немає магазинів або ж ваші товари недоступні для самовивозу.",
+          "ship_items": "Відправляйте ваші товари",
+          "search_elsewhere": "Шукайте в іншому місці",
+          "search_elsewhere_standalone": "Шукайте в іншому місці",
+          "ship_items_or_search_elsewhere": "%{ship_items} або %{search_elsewhere}"
+        },
+        "geolocation": {
+          "permission_not_allowed": "Дозвольте ділитися місцезнаходженням або натомість шукайте."
+        }
       }
     },
     "errors": {
