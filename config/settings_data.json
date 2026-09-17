@@ -75,12 +75,24 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "image_xTKHA9": {
+            "type": "image",
+            "settings": {
+              "hero_slide": "shopify://shop_images/1.jpg"
+            }
+          },
+          "image_6NP73k": {
+            "type": "image",
+            "settings": {}
+          },
           "slider-0": {
             "type": "image",
             "settings": {}
           }
         },
         "block_order": [
+          "image_xTKHA9",
+          "image_6NP73k",
           "slider-0"
         ],
         "settings": {
