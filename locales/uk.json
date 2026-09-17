@@ -2834,16 +2834,96 @@
             "claim_shop_cash_button_label": "Отримати кешбек"
           },
           "details_modal": {
-            "title": "Гарантія доставки"
+            "title": "Гарантія доставки",
+            "active_delivery_guarantee_label": "Доставка до {{date}}",
+            "expired_shop_promise_guarantee_description": "Гарантія Shop Promise для цього замовлення закінчилася.",
+            "expired_badge_label": "Термін дії закінчився",
+            "order_includes_guarantees_label": "Ваше замовлення включає {{deliveryAgreementsCount}} гарантій",
+            "order_includes_guarantees_description": "Shop Promise гарантує швидку та надійну доставку. Отримайте Shop Cash, якщо ваше замовлення прибуде після {{date}}.",
+            "delivered_after_label": "Доставлено після {{date}}",
+            "delivered_after_description": "Оскільки ваше замовлення надійшло із запізненням, ви маєте право вимагати {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Оскільки це замовлення прибуло пізно, ви отримали {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Оскільки ваше замовлення надійшло із запізненням, ви маєте право вимагати {{amount}} Shop Cash.",
+            "learn_more_button_label": "Дізнатись більше",
+            "claim_shop_cash_button_label": "Отримати кешбек",
+            "view_balance_in_shop_button_label": "Переглянути баланс у Магазині",
+            "scan_to_claim_shop_cash_label": "Відскануйте, щоб отримати {{amount}} Shop Cash"
           }
-        }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Доставка забезпечується",
+            "mixed_brands_label": "Доставка гарантована",
+            "not_delivered_by_label": "Не доставлено до {{date}}",
+            "modal_accessibility_button_label": "Деталі щодо термінів доставки"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Отримайте Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}}, щоб отримати Shop Cash",
+            "download_shop_app_label": "Завантажити магазин"
+          },
+          "details_modal": {
+            "title": "Доставка забезпечується",
+            "modal_accessiblity_label": "Деталі щодо термінів доставки",
+            "delivery_guarantee_label": "Гарантія доставки",
+            "delivery_by_label": "Доставка до {{date}}",
+            "delivery_guaranteed_by_label": "Доставка гарантована до {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise гарантує швидку та надійну доставку. Отримайте Shop Cash, якщо ваше замовлення надійде із запізненням.",
+              "may_be_eligible_not_authorized_label": "Ви можете претендувати на Shop Cash, оскільки це замовлення прибуло із запізненням. Увійдіть, щоб переглянути деталі.",
+              "redeemed_label": "Ви вже отримали кошти Shop Cash, оскільки це замовлення прибуло із запізненням.",
+              "no_shop_cash_label": "Це замовлення не підлягає відшкодуванню за запізнення доставки, оскільки його не було сплачено за допомогою Shop Pay.",
+              "no_longer_guaranteed_label": "Ці товари більше не мають гарантії доставки.",
+              "claim_shop_cash_title": "Відскануйте, щоб отримати {{amount}} у Shop Cash",
+              "claim_shop_cash_description": "Ви можете використовувати свої бонуси Shop Cash для майбутніх покупок у додатку Shop."
+            }
+          }
+        },
+        "arrives": "Прибуття {{date}}",
+        "arrives_tomorrow": "Прибуває завтра",
+        "delivery_estimate_backed_by": "Підтримується",
+        "delivery_estimate_delayed_description": "Доставка у ваш регіон повільніша, ніж зазвичай. Ваше замовлення може прибути із запізненням.",
+        "delivery_estimate_delayed_title": "Із затримкою",
+        "delivery_estimate_early_description": "Доставки у ваш регіон швидші, ніж зазвичай. Це замовлення може прибути раніше.",
+        "delivery_exception_action_required": "Необхідні дії",
+        "delivery_exception_attempted_action": "Запланувати нову доставку",
+        "delivery_exception_attempted_description": "{{link}} з {{carrier}} або перевірте сповіщення про доставку",
+        "delivery_exception_attempted_description_unknown": "{{link}} або перевірте повідомлення про доставку",
+        "delivery_exception_attempted_title": "Була спроба доставки",
+        "delivery_exception_delivery_failed": "Доставка не вдалася",
+        "delivery_exception_failed_action": "Зв'яжіться з {{carrier}}",
+        "delivery_exception_failed_description": "{{link}} або зв'яжіться з нами для отримання додаткової інформації",
+        "delivery_exception_failed_description_unknown": "Зв'яжіться з перевізником для отримання додаткової інформації",
+        "delivery_exception_failed_title": "Не доставлено",
+        "delivery_exception_on_hold_action": "Оновити дані доставки",
+        "delivery_exception_on_hold_description": "{{link}} з {{carrier}}, щоб ваше замовлення знову почало рухатися",
+        "delivery_exception_on_hold_description_unknown": "{{link}}, щоб замовлення було відправлено знову",
+        "delivery_exception_on_hold_title": "На утриманні",
+        "delivery_exception_returning_to_sender_action": "Зв'яжіться з {{carrier}}",
+        "delivery_exception_returning_to_sender_description": "{{link}} для отримання додаткової інформації",
+        "delivery_exception_returning_to_sender_description_unknown": "Зв'яжіться з перевізником для отримання додаткової інформації",
+        "delivery_exception_returning_to_sender_title": "Не доставлено",
+        "delivery_exception_shop_promise_delivered_late_description": "Ваше замовлення захищено Shop Promise. Оскільки його доставили із запізненням, ви можете отримати {{amount}} у Shop Cash.",
+        "delivery_exception_shop_promise_delivered_late_title": "Доставлено із запізненням",
+        "pickup_address_map_link_accessibility_label": "Переглянути місце самовивозу за адресою {{address}} на карті (відкриється в новому вікні)",
+        "pickup_location_label": "Місце отримання:",
+        "pickup_qr_code_accessibility_label": "QR-код для сканування в магазині, коли ви забираєте своє замовлення",
+        "predicted_by_shop": "Рекомендовано Shop"
       },
       "list_layout_accessibility_label": "Параметри макета",
       "list_title": "Замовлення",
       "list_title_confirmed_orders_accessibility_label": "Замовлення: підтверджено",
       "list_title_pending_orders_accessibility_label": "Замовлення: очікують на розгляд",
       "switch_order_type_pending_orders_accessibility_label": "Змінити тип замовлення, наразі переглядаються замовлення, що очікують на виконання",
-      "switch_order_type_confirmed_orders_accessibility_label": "Змінити тип замовлення, зараз відображаються підтверджені замовлення"
+      "switch_order_type_confirmed_orders_accessibility_label": "Змінити тип замовлення, зараз відображаються підтверджені замовлення",
+      "status_mark_as_delivered": "Позначити як доставлено",
+      "fulfillment_status_title": "Статус виконання: {{status}}",
+      "buy_again": "Купити знову",
+      "buy_again_accessibility_label": "Купити знову для замовлення {{orderId}}",
+      "manage": "Керувати",
+      "manage_accessiblity_label": "Керувати замовленням {{orderId}}",
+      "group_title_label": "Частина: {{groupTitle}}",
+      "group_title_label_with_parent": "Для: {{groupTitle}}"
     },
     "account_information": {
       "email_update_success_modal": {
@@ -3114,7 +3194,46 @@
       "adjusted_total": "Скоригований підсумок",
       "due_on_date": "Строк {{date}}",
       "due_on_fulfillment": "До сплати після виконання",
-      "due_on_receipt": "До оплати при отриманні"
+      "due_on_receipt": "До оплати при отриманні",
+      "shipment_timeline": {
+        "expand_events_label": "Показати деталі",
+        "expand_events_accessibility_label": "Показати деталі відправлення замовлення",
+        "hide_events_label": "Приховати деталі",
+        "hide_events_accessibility_label": "Приховати деталі відправлення замовлення"
+      },
+      "addresses_section_title": "Платіжна та поштова інформація",
+      "order_details": "Деталі замовлення",
+      "order_details_skeleton_accessibility_label": "Увійдіть, щоб переглянути всі деталі замовлення.",
+      "billing_address": "Платіжна адреса",
+      "card_ending_with": "що закінчується на {{lastDigits}}",
+      "contact": "Контакти",
+      "company": "Компанія",
+      "fully_refunded_label": "ПОВЕРНЕНО КОШТИ",
+      "fulfillment_images": {
+        "one_products_accessibility_label": "Виконання включає {{lineItemName1}} кількість {{lineItemQuantity1}}",
+        "two_products_accessibility_label": "Виконання включає: {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}",
+        "three_products_accessibility_label": "Замовлення включає {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}",
+        "four_products_accessibility_label": "Виконання включає {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}",
+        "five_products_accessibility_label": "Виконання включає {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}, {{lineItemName5}} кількість {{lineItemQuantity5}}",
+        "six_products_accessibility_label": "Замовлення включає: {{lineItemName1}}, кількість {{lineItemQuantity1}}; {{lineItemName2}}, кількість {{lineItemQuantity2}}; {{lineItemName3}}, кількість {{lineItemQuantity3}}; {{lineItemName4}}, кількість {{lineItemQuantity4}}; {{lineItemName5}}, кількість {{lineItemQuantity5}}; {{lineItemName6}}, кількість {{lineItemQuantity6}}",
+        "six_and_more_products_accessibility_label": "Виконання включає {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}, {{lineItemName5}} кількість {{lineItemQuantity5}}, {{lineItemName6}} кількість {{lineItemQuantity6}} та інше"
+      },
+      "group_title_label": "Частина: {{groupTitle}}",
+      "group_title_label_with_parent": "Для: {{groupTitle}}",
+      "view_controls": {
+        "gallery": "Галерея",
+        "list": "Список"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "Показати {{count}} елементів",
+        "collapse_line_items": "Сховати {{count}} елементів",
+        "line_item_summary_list_accessibility_label": "Елементи в наборі {{productTitle}}"
+      },
+      "discount": "Знижка",
+      "discount_order_stacking": {
+        "one": "Знижка на замовлення",
+        "other": "Знижки на замовлення"
+      }
     },
     "addresses": {
       "add_button": "Додати адресу",
