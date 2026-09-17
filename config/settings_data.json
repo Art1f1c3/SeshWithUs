@@ -101,7 +101,7 @@
         ],
         "settings": {
           "hero_text_color": "#ffffff",
-          "hero_logo_type": "",
+          "hero_logo_type": "custom",
           "hero-logo": "shopify://shop_images/logo_white.png",
           "hero_logo_max_width": "400",
           "hero_overlay_color": "#000000",
