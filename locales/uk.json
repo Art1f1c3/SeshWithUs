@@ -397,6 +397,136 @@
             "phone": "Введіть номер телефону"
           }
         }
+      },
+      "order_summary": {
+        "deposit_label": "Депозит",
+        "total_due_today_label": "До сплати сьогодні",
+        "total_due_later_label": "До сплати пізніше",
+        "partial_total_label": "Усього",
+        "free_total_label": "Безкоштовно",
+        "free_shipping_total_label": "Безкоштовно",
+        "paid_label": "Оплачено",
+        "payment_due_label": "Термін оплати",
+        "vat_label_html": "Включаючи %{amount} податків",
+        "duties_included_label": "Загальна сума включає податки та мита. Жодних додаткових зборів при доставці.",
+        "discount_and_gift_card_savings_notice": "Після знижок на суму %{discount_amount} та подарункових карток на суму %{gift_card_amount}",
+        "discount_savings_notice": "Після знижок на %{discount_amount}",
+        "gift_card_savings_notice": "Після %{gift_card_amount} у подарункових картах",
+        "cost_table_title": "Підсумок витрат",
+        "cost_table_item_column_header": "Позиція",
+        "cost_table_value_column_header": "Значення",
+        "description_label": "Опис",
+        "price_label": "Ціна",
+        "price_per_item": {
+          "accessibility_label": "%{price} за одиницю",
+          "label": "%{price}/шт."
+        },
+        "quantity_label": "Кількість",
+        "product_change_label": "Змінити",
+        "product_image_label": "Зображення продукту",
+        "product_image_quantity_label": "Кількість",
+        "scroll_order_summary": "Прокрутіть, щоб переглянути інші позиції",
+        "expand_order_summary_short": "Покажіть",
+        "collapse_order_summary_short": "Сховати",
+        "original_price": "Початкова ціна",
+        "sale_price": "Ціна продажу",
+        "compare_at_sale": "Знижка (%{sale_amount})",
+        "total_updated_label": "Оновлена загальна ціна:",
+        "order_total_updated_label": "Оновлений підсумок",
+        "total_already_paid_label": "Оплачено",
+        "unit_price": {
+          "accessible_separator": "за",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}",
+          "per_item": {
+            "single": "%{price} за шт.",
+            "one": "%{price} за %{count} шт.",
+            "other": "%{price} за %{count} одиниць"
+          },
+          "per_unit": {
+            "single": "%{price}/%{unit}",
+            "plural": "%{price}/%{count}%{unit}"
+          }
+        },
+        "gift_card_ending": "Подарункова картка, що закінчується на %{last_characters}",
+        "estimated_tax_label": "Орієнтовний податок",
+        "multiple_shipping_lines_label": "Загальна вартість доставки",
+        "recurring_subtotal_label": "Повторюваний проміжний підсумок",
+        "recurring_total_label": "Загальна сума до сплати (періодично)",
+        "recurring_total_tooltip": "Не включає доставку, податки, мита чи будь-які відповідні знижки",
+        "confirmation_number_label": "Підтвердження №%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> не може бути використаний з вашими наявними знижками.",
+        "percent_off_shipping": "Знижка %{percent}% на доставку",
+        "amount_off_shipping": "Знижка %{amount} на доставку",
+        "deferred_payment_info": {
+          "title": "Оплата у розмірі %{amount_due} підлягає сплаті до %{due_at}",
+          "description_html": "З питань стосовно вашого замовлення, %{contact_us}.",
+          "paid_today": "Всього оплачено сьогодні",
+          "paid_today_next": "Оплачено сьогодні",
+          "due_on_fulfillment_title": "Оплата у розмірі %{amount_due} підлягає сплаті після виконання",
+          "due_on_receipt_title": "Оплата у розмірі %{amount_due} підлягає сплаті після отримання рахунку"
+        },
+        "deferred_balance_info": {
+          "title": "Залишок у розмірі {{amount_due}} підлягає сплаті до {{due_at}}",
+          "due_on_fulfillment_title": "Баланс у розмірі {{amount_due}} підлягає сплаті після виконання"
+        },
+        "payment_terms_totals": {
+          "due_today": "До сплати сьогодні",
+          "due_today_next": "До сплати сьогодні",
+          "due_later": "До сплати до %{due_at}",
+          "due_on_fulfillment": "Загальна сума до сплати після виконання замовлення",
+          "due_on_fulfillment_next": "До сплати після виконання",
+          "due_on_receipt": "Загальна сума до сплати після отримання",
+          "due_later_checkout_to_draft": "До сплати пізніше",
+          "total_paid": "Усього сплачено"
+        },
+        "maximum_discount_code_limit_reached": "Ви досягли максимальної кількості промокодів. Видаліть наявний код, щоб використати <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> зараз не працює. Зв'яжіться з нами, щоб отримати допомогу.",
+        "due_on_fulfillment": "До сплати після виконання",
+        "gift_card_masked": "•••• %{last_characters}",
+        "subscriptions": "Підписки",
+        "duties_label": "Обов'язки",
+        "duty_label": "Обов'язок",
+        "duties_and_taxes_label": "Мита та податки",
+        "error_duties_tooltip": "Це замовлення відправляється з іншої країни, тому під час доставки можуть стягуватися мита й податки.",
+        "may_be_charged_on_delivery": "Може стягуватися при доставці",
+        "total_updated_label_with_price": "Оновлена загальна ціна: %{totalPrice}",
+        "updated_shipping_method": "Оновлено спосіб доставки: %{shipping_method}",
+        "recurring_payments": "Регулярні платежі",
+        "recurring_total_multiple_label": "Це замовлення має регулярне списання коштів за кілька товарів",
+        "deferred_total_due_date_label": "До сплати до {{date}}",
+        "deferred_total_due_date_label_next": "До %{date}",
+        "full_price": "Повна ціна: %{price}",
+        "custom_discount": "Спеціальна знижка",
+        "expand_component_information": {
+          "one": "Показати %{count} товар",
+          "other": "Показати %{count} елементів"
+        },
+        "collapse_component_information": {
+          "one": "Приховати %{count} позицію",
+          "other": "Сховати %{count} елементів"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Додати знижку",
+          "back_to_finalize_order": "Повернутися до завершення замовлення",
+          "merchandise_quantity_label": {
+            "one": "%{count} об'єкт",
+            "other": "%{count} позицій"
+          }
+        },
+        "alternative_payment_currency_total": "Списано як %{amount_due}",
+        "alternative_payment_currency_chinese_yuan": "Підтвердьте кінцеву суму в юанях (CNY) у застосунку %{wallet}.",
+        "lpm": {
+          "wechat_pay": {
+            "checkout_disclosure": "Підтвердьте остаточну суму в юанях у застосунку WeChat",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} опрацює цей платіж як %{amount_due} %{processing_currency}, який WeChat конвертує в CNY",
+            "checkout_disclosure_charged_in_cny": "Магазин %{shop_name} опрацює цей платіж на суму %{amount_due} %{processing_currency}.",
+            "post_purchase_disclosure": "Переглянути загальну суму в юанях у WeChat"
+          },
+          "alipay": {
+            "checkout_disclosure": "Підтвердьте кінцеву суму в юанях у застосунку Alipay"
+          }
+        }
       }
     }
   },
