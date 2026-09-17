@@ -931,7 +931,101 @@
           "other": "Є %{count} прострочених карток, які ви можете переглянути та редагувати у своєму обліковому записі."
         },
         "local_payment_method_receiver_notice": "<p>Після оформлення замовлення ви отримаєте реквізити для оплати. Здійсніть оплату в банкоматі або онлайн протягом {{dueDays}} днів.</p>",
-        "order_edit_banner_title": "Необхідно сплатити {{amount_owed}}"
+        "order_edit_banner_title": "Необхідно сплатити {{amount_owed}}",
+        "order_edit_banner_subtitle": "Ваше замовлення {{order_number}} оновлено. Перегляньте ці зміни, а потім оплатіть, щоб підтвердити замовлення.",
+        "order_edit_banner_items_added": {
+          "one": "Додано",
+          "other": "Додано %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Видалено",
+          "with_quantities": "Видалено {{delta}} з {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Повернуто {{quantity}}",
+          "with_quantities": "Повернено {{delta}} з {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Вилучено з повернення",
+          "with_quantities": "Вилучено {{delta}} з повернення"
+        },
+        "order_edit_banner_single_item_added": "Додано",
+        "order_edit_banner_multiple_items_added": "Додано {{amount}}",
+        "order_edit_banner_single_item_removed": "Видалено",
+        "order_edit_banner_multiple_items_removed": "Вилучено {{amount}}",
+        "order_edit_banner_single_item_returned": "Повернуто",
+        "order_edit_banner_multiple_items_returned": "Повернуто {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "Вилучено з повернення",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Видалено {{amount}} з повернення",
+        "order_edit_banner_single_item_updated": "Оновлено",
+        "order_edit_banner_updated_order_label": "Оновлене замовлення",
+        "order_edit_banner_previous_taxes_label": "Попередні податки:",
+        "order_edit_banner_new_taxes_label": "Нові податки:",
+        "order_edit_banner_no_taxes_label": "Жоден",
+        "gift_card_wrapper": {
+          "heading": "Подарункова картка",
+          "apply_gift_card_label": "Застосувати подарункову картку",
+          "apply_another_gift_card_label": "Застосувати іншу подарункову картку",
+          "gift_card_label": "Подарункова картка %{identifier}",
+          "payment_tag": "Подарункова картка",
+          "add_label": "Додати подарункову картку",
+          "manage_label": "Керувати подарунковими картками"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Додати подарункову картку або кредит магазину",
+          "manage_label": "Керування подарунковими картками або кредитом магазину"
+        },
+        "gift_card_checkbox_label": "Застосувати подарункову картку",
+        "custom_onsite_payment_method_modal": {
+          "title": "Підтвердження оплати на місці (замовлення)"
+        },
+        "markets_pro_disclaimer_label": "Роблячи замовлення, ви погоджуєтеся купувати у Global-e як офіційного продавця, відповідно до %{markets_pro_terms} і %{privacy_policy} компанії Global-e, а також надаєте дозвіл на обмін вашою інформацією з %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Умови використання",
+        "markets_pro_disclaimer_privacy_policy": "Політика конфіденційності",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Умови та положення Сторони, яка реєструє транзакції",
+        "markets_pro_disclaimer_privacy_policy_title": "Політика конфіденційності Сторони-продавця",
+        "purchase_order_number": {
+          "title": "Номер замовлення на поставку",
+          "label": "Номер замовлення на поставку (необов'язково)"
+        },
+        "alternative_payment_currency_total_notice": "Примітка: з вас буде стягнуто %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Примітка: перерахована сума становить %{amount_due}.",
+        "waiting_on_taxes_message": "Якщо ваші податки не обчислюються протягом кількох секунд, оновіть сторінку.",
+        "waiting_on_taxes_notice": "Обчислення податків",
+        "payment_method": "Спосіб оплати",
+        "payment_method_rollup_accessibility_label": "Варіанти способів оплати",
+        "expired_payment_method": "Обраний спосіб оплати прострочено",
+        "payment_method_update_failed": "Не вдалося оновити спосіб оплати.",
+        "payment_method_incompatible_with_payment_terms": "Метод оплати несумісний з умовами оплати.",
+        "proposed_gateway_unavailable": "Запропонований платіжний шлюз недоступний",
+        "pay_in_installments_split_pay_short": "4 платежі по %{amount}",
+        "gift_cards_unavailable": "Вашу подарункову картку більше не можна застосувати до цього замовлення, її було видалено",
+        "payment_flexibility_terms_id_mismatch": "Невідповідність ідентифікатора умов гнучкості оплати",
+        "payment_option": {
+          "accessibility_label": "Оберіть спосіб оплати"
+        },
+        "bank_account_type": {
+          "checking": "Перевірка",
+          "savings": "Заощадження"
+        },
+        "new_bank_account_disclaimer": "Оформлюючи замовлення, ви уповноважуєте %{shop_name} списати кошти з банківського рахунку, зазначеного нижче, за допомогою ACH у вказаній сумі та у вказаний час.",
+        "bank_account_disclaimer": "Обробка платежів ACH може тривати до 4 робочих днів.",
+        "bank_account_choose": "Виберіть обліковий запис, щоб безпечно завершити покупку",
+        "bank_account_connect_another": "Підключити інший банківський рахунок",
+        "bank_account_connect": "Підключити банківський рахунок",
+        "bank_account_missing": "Банківський рахунок має бути підключений",
+        "bank_account_generic_error": "Не вдалося додати банківський рахунок. Спробуйте пізніше.",
+        "separate_payments_label": "Ваші товари з різних магазинів. Кошти буде стягнено %{separate_payments_link}.",
+        "separate_payments_text": "окремі платежі",
+        "payments": "Платежі",
+        "add_payment_method": "Додати спосіб оплати",
+        "add_new_payment_method": "Додати новий спосіб оплати",
+        "choose_new_payment_method": "Оберіть новий спосіб оплати",
+        "multiple_primary_payment_not_allowed": "Недійсні способи оплати",
+        "vault_for_payment_later": {
+          "pay_button_label": "Розмістити замовлення",
+          "notice": "З вас не стягуватиметься плата зараз. Продовжуючи оплату, ви погоджуєтеся, що кошти буде списано з вашого платіжного засобу після обробки замовлення."
+        }
       },
       "shipping": {
         "title": "Доставка",
@@ -1365,6 +1459,44 @@
         "optional_address2_label": "Квартира, номер, тощо (необов’язково)",
         "neighborhood_label": "Район",
         "optional_neighborhood_label": "Район (необов'язково)"
+      },
+      "billing": {
+        "billing_address_title": "Рахунок на оплату",
+        "billing_address_rollup_accessibility_label": "Варіанти виставлення рахунку",
+        "same_as_shipping": "Така ж, як адреса доставки",
+        "add_address": "Використати іншу адресу",
+        "edit": "Редагувати",
+        "delete": "Видалити",
+        "address_more": "Більше дій для цієї адреси",
+        "address_edit": "Редагувати адресу",
+        "address_delete": "Видалити адресу",
+        "address_confirm": "Ви впевнені, що хочете видалити цю адресу зі свого облікового запису?",
+        "address_form": {
+          "add_address": "Додати адресу",
+          "save": "Зберегти",
+          "cancel": "Скасувати"
+        }
+      },
+      "company_location": {
+        "location_title": "Місцезнаходження компанії",
+        "location_rollup_accessibility_label": "Варіанти розташування компанії"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Поточний баланс %{amount}",
+        "credit_card_expires_on_notice": "Закінчується %{month}/%{year}",
+        "express_payment_gateway_label": "Висловити",
+        "manual_payment_gateway_label": "Посібник",
+        "billing_address_title": "Платіжна адреса",
+        "free_label": "Безкоштовно"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Введіть дійсний номер телефону",
+        "handle_email_invalid": "Введіть дійсну адресу електронної пошти",
+        "email_invalid": "Введіть дійсну адресу електронної пошти",
+        "email_or_phone_blank": "Введіть електронну пошту або номер телефону",
+        "email_or_phone_invalid": "Введіть дійсну електронну пошту або номер мобільного телефону",
+        "address_first_name_blank": "Введіть ім'я",
+        "address_first_name_too_long": "Ім'я надто довге (максимум 255 символів)"
       }
     },
     "errors": {
