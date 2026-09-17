@@ -83,7 +83,9 @@
           },
           "image_6NP73k": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "hero_slide": "shopify://shop_images/3.jpg"
+            }
           },
           "slider-0": {
             "type": "image",
