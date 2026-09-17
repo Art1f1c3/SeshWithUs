@@ -2111,7 +2111,9 @@
         "checkout_card_banner": "Цей спосіб оплати можна використовувати лише для попередньо авторизованих платежів. Він не відображатиметься під час оформлення замовлення, якщо ви ввійшли в обліковий запис цього магазину.",
         "default_checkbox": "Установити за замовчуванням",
         "default_checkbox_accessibility_label": "Установити цей спосіб оплати як типовий",
-        "replace_payment_method_button": "Замінити"
+        "replace_payment_method_button": "Замінити",
+        "title": "Реквізити способу оплати",
+        "credit_card_details_accessibility_label": "що закінчуються на {{lastDigits}}"
       },
       "edit_payment_method": {
         "title": "Змінити спосіб оплати",
@@ -2211,6 +2213,115 @@
         "delete_and_replace_button_accessibility_label": "Видалити {{currentPaymentMethodName}} і замінити на {{newPaymentMethodName}}.",
         "deleted_successfully": "Спосіб оплати успішно видалено.",
         "loading_available_payment_methods_accessibility_label": "Завантаження доступних методів оплати"
+      },
+      "replacement_payment_method_title": "Заміна способу оплати",
+      "title": "Способи оплати",
+      "add_payment_method_button": "Додати спосіб оплати",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Додаючи платіжний засіб, ви надаєте згоду на списання коштів з вашої картки або банківського рахунку для майбутніх покупок, які ви схвалите, доки ви не скасуєте цю дію."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Кнопка банківського рахунку завантажується",
+        "iframe_title_accessibility_label": "Налаштування банківського рахунку",
+        "display_name": "Банківський рахунок",
+        "generic_error": "Не вдалося додати банківський рахунок. Спробуйте пізніше."
+      },
+      "add_payment_method_banner": "Додайте платіжний засіб для швидшого оформлення замовлення або попередньо авторизованих послуг",
+      "no_payment_methods_banner": "Не додано жодного способу оплати",
+      "edit_payment_method_button_accessibility_label": "Редагувати {{paymentMethodName}}, що закінчується на {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Редагувати {{paymentMethodName}}",
+      "delete_payment_method_button": "Видалити",
+      "delete_payment_method_button_accessibility_label": "Видалити {{paymentMethodName}}",
+      "back_button": "Назад",
+      "back_button_accessibility_label": "Назад до {{paymentMethodStepTitle}}",
+      "default": "Типово",
+      "generic_card": "Картка",
+      "expiration_warning_button_accessibility_label": "Показувати попередження про закінчення терміну дії для {{paymentMethodName}}, що закінчується на {{lastDigits}}",
+      "expires_soon": "Термін дії цієї картки незабаром закінчується",
+      "expired": "Термін дії цієї картки закінчився",
+      "expired_badge_label": "Термін дії закінчився",
+      "expiring_badge_label": "Закінчується термін дії",
+      "card_update_consent": "Цей спосіб оплати буде збережено для майбутніх покупок.",
+      "card_update_consent_subscriptions": "Цей метод оплати буде збережено для майбутніх покупок і може бути використаний для будь-яких регулярних або відкладених платежів.",
+      "digital_wallet_title": "Цифровий гаманець",
+      "credit_or_debit_card_title": "Кредитна чи дебетова картка",
+      "credit_card_title": "Кредитна картка",
+      "additional_payment_methods": "Додаткові способи оплати",
+      "or": "АБО",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Додати спосіб оплати Google Pay",
+        "loading_accessibility_message": "Завантажуємо Google Pay",
+        "loading": "Завантажуємо Google Pay",
+        "errors": {
+          "generic": "Виникла проблема з Google Pay. Спробуйте ще раз або використайте інший спосіб оплати.",
+          "missing_billing_address": "Google Pay вимагає вказати платіжну адресу. Додайте її до свого облікового запису."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Додати спосіб оплати PayPal",
+        "loading_accessibility_message": "Завантаження PayPal",
+        "errors": {
+          "generic": "Виникла проблема з PayPal. Спробуйте ще раз або використайте інший спосіб оплати."
+        }
+      },
+      "apple_pay": {
+        "loading": "Завантаження Apple Pay",
+        "errors": {
+          "generic": "Виникла проблема з Apple Pay. Спробуйте ще раз або використайте інший спосіб оплати.",
+          "not_available": "Apple Pay недоступний на цьому пристрої.",
+          "missing_billing_address": "Для Apple Pay потрібна платіжна адреса. Будь ласка, додайте її до свого облікового запису."
+        }
+      },
+      "store_credit": {
+        "label": "Кредит магазину",
+        "accessibility_label": "Кредит магазину - {{formattedBalance}}",
+        "expirable_amounts_button": "Переглянути суми, термін дії яких закінчується",
+        "expirable_amounts_label": "Суми, термін дії яких спливає",
+        "details_modal": {
+          "load_error": "Не вдалося завантажити кредит магазину.",
+          "title": "Кредит магазину з терміном дії",
+          "balance_label": "Баланс",
+          "expiration_date_label": "Термін придатності",
+          "amount_label": "Сума",
+          "date_label": "Дата",
+          "event_label": "Подія",
+          "events": {
+            "adjustment": "Коригування",
+            "order_payment": "Оплата замовлення",
+            "order_refund": "Відшкодування замовлення",
+            "payment_failure": "Помилка платежу",
+            "payment_returned": "Платіж повернуто",
+            "order_cancellation": "Скасування замовлення",
+            "tax_finalization": "Остаточний розрахунок податків"
+          },
+          "expirable_balance_info": "Частина вашого балансу закінчиться в майбутньому",
+          "expirable_amount_label": "Загальна сума до закінчення терміну дії",
+          "expirable_amounts_info": "Суми, термін дії яких закінчується раніше, застосовуються під час оформлення замовлення першими",
+          "expirable_amounts_button": "Переглянути",
+          "expired_amounts_button": "Переглянути прострочені суми",
+          "pagination": {
+            "expirable_transactions_loading": "Завантаження нових сум, що закінчуються",
+            "transactions_loading": "Завантаження нових транзакцій",
+            "load_more_label": "Показати ще",
+            "load_more_accessibility_label": "Показати більше сум, термін дії яких закінчується",
+            "load_more_transactions_accessibility_label": "Показати більше транзакцій",
+            "expirable_transactions_loaded": "Завантажено більше сум з обмеженим терміном дії",
+            "transactions_loaded": "Завантажено більше транзакцій"
+          },
+          "expirable_indicator": "{{formattedAmount}} закінчиться термін дії",
+          "expirable_indicator_accessibility_label": "{{formattedAmount}} закінчиться. Переглянути суми, термін дії яких спливає.",
+          "expirable_indicator_with_date_accessibility_label": "{{formattedAmount}} закінчується {{date}}. Переглянути суми, що закінчуються.",
+          "expires_at": "Термін дії спливає {{date}}",
+          "expirable_transactions_list_accessibility_label": "Транзакції з кредитами магазину, термін дії яких спливає",
+          "loading_accessibility_message": "Завантаження даних про кредит на покупки",
+          "transactions_list_accessibility_label": "Операції з кредитним залишком магазину",
+          "transaction_types": {
+            "credit": "Додано",
+            "debit": "Витрачено",
+            "debit_revert": "Повернуто кошти",
+            "expiration": "Термін дії закінчився"
+          }
+        }
       }
     },
     "payment_method_brands": {
@@ -3101,6 +3212,35 @@
       "expand_label": "Розгорнути панель оголошень",
       "collapse_label": "Згорнути панель оголошень",
       "close_label": "Закрити панель оголошень"
+    },
+    "errors": {
+      "profile_update_error": {
+        "description": "Виникла проблема з оновленням вашого профілю. Спробуйте оновити цю сторінку або перевірте своє з’єднання з інтернетом."
+      },
+      "profile_name_update_error": {
+        "description": "Виникла проблема з оновленням вашого імені. Спробуйте оновити цю сторінку або перевірте своє інтернет-з’єднання."
+      },
+      "retry_action_label": "Спробуйте ще раз",
+      "resend_link": {
+        "too_many_requests": "Надто багато запитів. Спробуйте пізніше.",
+        "generic": "Невдалий запит"
+      },
+      "load_extension_error": {
+        "title": "Помилка",
+        "description": "Оновіть цю сторінку або спробуйте ще раз за кілька хвилин.",
+        "refresh_button": "Оновити сторінку"
+      },
+      "already_upgraded": "Облікові записи клієнтів уже оновлено.",
+      "failed_to_upgrade": "Не вдалося оновити налаштування облікового запису клієнта.",
+      "not_upgraded": "Облікові записи клієнтів не оновлюються.",
+      "failed_to_revert": "Не вдалося відновити налаштування облікового запису клієнта.",
+      "revert_window_expired": "Термін повернення минув."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Забагато спроб",
+        "description": "Будь ласка, спробуйте ще раз за кілька хвилин"
+      }
     }
   },
   "general": {
