@@ -236,7 +236,65 @@
         "order_status_updates_with_missing": "Виберіть, як ви хочете отримувати сповіщення про доставку.",
         "order_status_confirmed_with_installments_payment_return": "Знову зверніть увагу на продавця-консультанта.",
         "order_status_confirmed_with_installments_payment_confirm": "Незабаром ви отримаєте електронний лист із підтвердженням замовлення, його номером та деталями вашого графіку платежів.",
-        "confirmed_title": "Ваше замовлення підтверджено"
+        "confirmed_title": "Ваше замовлення підтверджено",
+        "title": "Дякуємо за покупку!",
+        "confirmation_email_sent_text": "Електронний лист із підтвердженням надіслано на адресу %{email}",
+        "return_to_store_link_label": "Продовжити покупки",
+        "print_link_label": "Друкувати чек",
+        "payment_information_title": "Платіжна інформація",
+        "shipping_information_title": "Інформація про доставку",
+        "page_title": "Дякуємо, %{display_name}!",
+        "page_title_no_name": "Дякую!",
+        "purchase_order_number_title": "Номер замовлення на купівлю: #%{purchase_order_number}",
+        "cancelled_page_title": "Замовлення скасовано",
+        "failed_pending_payment_page_title": "Виникла проблема з вашим платежем",
+        "customer_information_title": "Деталі замовлення",
+        "contact_information_title": "Контактна інформація",
+        "billing_address_title": "Платіжна адреса",
+        "cashback_notice": "Ви отримаєте кешбек через 30 днів",
+        "company_location_title": "Розташування",
+        "shipping_address_title": "Адреса доставки",
+        "shipping_address_map_title": "Мапа Google з позначкою адреси доставки: %{address}",
+        "payment_method_title": "Спосіб оплати",
+        "payment_method_not_charged": "Не стягується",
+        "shipping_method_title": "Спосіб доставки",
+        "tracking_number": "Номер відстеження:",
+        "company_tracking_number": "Номер відстеження %{company}:",
+        "estimated_arrival": "Орієнтовна дата доставлення: ",
+        "estimated_delivery": "Поточна очікувана дата доставки:",
+        "re-order": "Змініть порядок тих самих елементів",
+        "confirmed": "Підтверджено",
+        "confirmed_items_count": "Підтверджено %{confirmed_count} з %{total_count} елементів",
+        "items_fulfilled_by_store": {
+          "one": "Придбані вами товари надійдуть від %{remote_shop_name}.",
+          "other": "Придбані вами товари надходитимуть з інших магазинів."
+        },
+        "gift_card_confirmation_by_text": "Якщо ви його не отримали, надішліть текстове повідомлення повторно або зв’яжіться з нами.",
+        "gift_card_confirmation_by_email": "Якщо ви його не отримали, надішліть електронний лист повторно або зв’яжіться з нами.",
+        "gift_card_title": "Подарункові картки",
+        "resend_gift_cards": "Надіслати подарункові картки повторно",
+        "thank_you_title": "Ваше замовлення підтверджено",
+        "thank_you_title_payment": "Ваш платіж підтверджено",
+        "thank_you_title_review": "Ваше замовлення було відправлено на розгляд",
+        "thank_you_title_payments_app_pending_default": "Ваш платіж обробляється",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Ваше замовлення отримано",
+        "thank_you_title_payments_app_failed_pending_payment": "Ваш платіж не вдалося обробити.",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Ви незабаром отримаєте електронний лист із підтвердженням",
+          "multi_store": "Незабаром ви отримаєте окремі електронні листи з підтвердженням від кожного магазину."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Незабаром ви отримаєте текстове підтвердження",
+          "multi_store": "Незабаром ви отримаєте окремі повідомлення-підтвердження від кожного магазину"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Ви незабаром отримаєте електронний лист із підтвердженням",
+          "multi_store": "Незабаром ви отримаєте окремі електронні листи з підтвердженням від кожного магазину."
+        },
+        "thank_you_confirmed_order_with_email": "Ви незабаром отримаєте електронний лист із підтвердженням і номером замовлення.",
+        "thank_you_confirmed_order_with_phone": "Незабаром ви отримаєте СМС із підтвердженням і номером замовлення.",
+        "thank_you_confirmed_order_with_email_and_phone": "Ви незабаром отримаєте електронний лист із підтвердженням і номером замовлення.",
+        "thank_you_confirmed_orders_with_email": "Незабаром ви отримаєте окремі електронні листи з підтвердженням і номерами замовлень"
       },
       "split_delivery": {
         "pickup_items_count": {
@@ -1105,6 +1163,74 @@
           "terminal_error_title": "Підключення гаманця завершено",
           "terminal_error_message": "Поверніться та відкрийте Shop Pay знову."
         }
+      },
+      "processing": {
+        "wait": {
+          "refresh_this_page": "оновіть цю сторінку"
+        },
+        "remote_shops_payments_processing": "Обробка платежів",
+        "action_required": "Необхідні дії",
+        "modal_notice": "Зв'язуємося з вами щодо {{paymentMethod}}",
+        "remote_checkout_count": "%{current} з %{total}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Завершіть покупку, використовуючи код {{paymentMethod}}",
+        "timer_message": "У вас є {{timeLeft}}, щоб оплатити",
+        "copy_text": "Копіювати код {{paymentMethod}}",
+        "open_app_text": "Відкрийте застосунок {{paymentMethod}}",
+        "header": "Оплатіть за допомогою {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Завершіть покупку, використовуючи код {{paymentMethod}}",
+          "wechat_instructions": "Відскануйте цей QR-код за допомогою застосунку WeChat на своєму телефоні, щоб завершити покупку",
+          "wechat_instructions_mobile": "Відскануйте цей QR-код за допомогою програми WeChat на іншому пристрої, щоб завершити покупку",
+          "paynow_instructions": "Відскануйте цей QR-код за допомогою банку-учасника або платіжного додатку. Не сплачуйте, вводячи UEN вручну. Ручні перекази не можуть бути зіставлені з вашим замовленням і не підлягають поверненню коштів. Отримувач платежу відображається як Stripe.",
+          "paynow_instructions_mobile": "Збережіть або зробіть скріншот цього QR-коду, потім відкрийте додаток банку-учасника чи платіжний додаток і відскануйте його зі своїх фотографій. Не сплачуйте, вводячи UEN вручну. Перекази, зроблені вручну, не можуть бути співставлені з вашим замовленням і не підлягають поверненню. Отримувач платежу відображається як Stripe."
+        },
+        "external": {
+          "instructions": "Підтвердьте оплату у вашому додатку, щоб завершити цю покупку"
+        },
+        "close": "Закрити завдання"
+      },
+      "failed_payment": {
+        "page_title": "Не вдалося обробити платіж",
+        "title": "Не вдалося обробити платіж",
+        "payment_not_processed_title": "Ваш платіж не вдалося обробити.",
+        "payment_not_processed_text": "З вас не стягнуто плату. Поверніться до кошика, щоб завершити покупку.",
+        "return_to_cart_button_label": "Повернутися до кошика"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Кредитна картка",
+        "bogus_label": "Тестування платіжного шлюзу",
+        "bank_deposit_label": "Банківський депозит",
+        "bank_account_label": "Банківський рахунок",
+        "cash_on_delivery_label": "Накладений платіж",
+        "money_order_label": "Грошовий переказ",
+        "debit_card_label": "Дебетова картка",
+        "credit_or_debit_card_label": "Кредитна/Дебетова картка",
+        "deferred_payment_label": "Обрати спосіб оплати пізніше",
+        "fixed_payment_label": "Ваш платіж буде нараховано {{dueDate}}.",
+        "generic_payment_terms": "Ви працюєте за умовами {{translatedName}}. Ваш платіж буде нараховано {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} в обліковий запис, що має доступ до цього розташування, щоб додати або використати збережені способи оплати.",
+            "link": "Увійти"
+          }
+        },
+        "direct_payment_terms": "Ви на умовах {{translatedName}}. Вашу картку буде списано {{dueDate}}.",
+        "fixed_direct_payment_terms": "Вашу картку буде списано {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Ваш платіж буде нараховано після виконання замовлення.",
+        "order_due_on_fulfillment_payment": "Ваша картка буде списана після виконання замовлення.",
+        "order_due_on_receipt_choose_later": "Ваш платіж буде підлягати сплаті після отримання.",
+        "order_deposit_due_now": "{{depositAmount}} необхідно сплатити сьогодні. Залишок згідно з умовами {{translatedName}} необхідно сплатити до {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} необхідно сплатити сьогодні. Залишок суми потрібно буде сплатити після виконання замовлення.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} необхідно сплатити сьогодні. Залишок буде сплачено пізніше.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} необхідно сплатити сьогодні. Залишок буде сплачено до {{dueDate}}.",
+        "draft_order_payment_due_later_no_terms": "Ваш платіж буде нараховано після підтвердження замовлення.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Із вашої картки буде списано кошти після підтвердження замовлення.",
+        "draft_order_payment_due_later_terms": "Ви отримаєте {{translatedName}} після підтвердження замовлення.",
+        "draft_order_payment_due_on_fulfillment": "Ваш платіж буде нараховано після підтвердження та виконання замовлення.",
+        "draft_order_deposit_due_later": "{{depositAmount}} буде стягнено при підтвердженні замовлення. Залишок коштів буде перераховано на умовах {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} буде сплачено після підтвердження вашого замовлення. Залишок буде сплачено після виконання вашого замовлення."
       }
     },
     "errors": {
