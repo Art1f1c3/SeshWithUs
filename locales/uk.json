@@ -1657,6 +1657,47 @@
             "billing": "Рахунки"
           }
         }
+      },
+      "taxes": {
+        "vat_number": {
+          "status": {
+            "invalid_number": {
+              "gr": "Введіть дійсний номер платника ПДВ Греції",
+              "hu": "Введіть дійсний угорський номер платника ПДВ",
+              "ie": "Введіть дійсний ірландський номер платника ПДВ",
+              "it": "Введіть дійсний італійський номер платника ПДВ",
+              "lv": "Введіть дійсний номер платника ПДВ Латвії",
+              "lt": "Введіть дійсний ідентифікаційний номер платника ПДВ Литви",
+              "lu": "Введіть дійсний люксембурзький номер платника ПДВ",
+              "mt": "Введіть дійсний номер платника ПДВ Мальти",
+              "nl": "Введіть дійсний нідерландський номер платника ПДВ",
+              "pl": "Введіть дійсний польський номер платника ПДВ",
+              "pt": "Введіть дійсний португальський номер платника ПДВ",
+              "ro": "Введіть дійсний номер платника ПДВ Румунії",
+              "sk": "Введіть дійсний словацький номер платника ПДВ",
+              "si": "Введіть дійсний ідентифікаційний номер платника ПДВ Словенії",
+              "es": "Введіть дійсний іспанський номер платника ПДВ",
+              "se": "Введіть дійсний ідентифікаційний номер платника ПДВ Швеції",
+              "gb": "Введіть дійсний номер платника ПДВ Великої Британії"
+            },
+            "service_unavailable": "Служба перевірки недоступна",
+            "service_error": "Служба перевірки недоступна"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Перевірка ПДВ-номеру триває",
+              "valid": "Індивідуальний податковий номер є дійсним",
+              "applied": "Застосовано звільнення від ПДВ",
+              "domestic": "Звільнення від ПДВ не застосовано",
+              "invalid_number": "Звільнення від ПДВ не відбулося",
+              "service_unavailable": "Неможливо перевірити звільнення від ПДВ",
+              "service_error": "Неможливо перевірити звільнення від ПДВ"
+            }
+          }
+        }
+      },
+      "address_management": {
+        "saved_with_store": "Збережено в цьому магазині"
       }
     },
     "errors": {
@@ -1715,7 +1756,46 @@
             "shopify_support_link_text": "Підтримка Shopify"
           }
         }
-      }
+      },
+      "blank": "не може бути пустим",
+      "blocked_address": "Це місце розташування не підтримується",
+      "credit_card_session_expired": "Термін дії авторизації кредитної картки закінчився, будь ласка, введіть платіжну інформацію ще раз. Кошти з картки не списувалися.",
+      "empty": "не може бути пустим",
+      "invalid_email": "має бути дійсною електронною адресою",
+      "discount_disabled": "Цю знижку було вимкнено",
+      "discount_expired": "Ця знижка більше не діє",
+      "discount_limit_reached": "Ця знижка досягла ліміту використання",
+      "discount_not_found": "Не вдалося знайти дійсну знижку, що відповідає введеному коду",
+      "customer_already_used_once_per_customer_discount_notice": "Ця знижка досягла ліміту використання",
+      "gift_card_already_applied": "Код уже застосовано до вашого замовлення",
+      "gift_card_code_invalid": "Недійсний код",
+      "gift_card_currency_mismatch": "Цю подарункову картку не можна використовувати для цієї покупки. Зв'яжіться з %{shop_name}, щоб перевипустити її.",
+      "gift_card_depleted": "На цій подарунковій картці не залишилося коштів",
+      "gift_card_disabled": "Подарункова картка неактивна",
+      "gift_card_expired": "Термін дії подарункової картки закінчився",
+      "invalid": "недійсний",
+      "bad_domain": "містить недійсне доменне ім'я",
+      "taken": "вже зайнято",
+      "contains_html_tags": "не може містити HTML-тегів",
+      "too_short": "занадто коротке (мінімум %{count} символів)",
+      "too_long": "задовгий (максимум %{count} символів)",
+      "password_mismatch": "має збігатися з наданим паролем",
+      "contains_spaces": "починається або закінчується пробілами.",
+      "invalid_for_country": "не дійсний для %{country}",
+      "invalid_for_country_and_province": "є неприпустимим для %{province} та %{country}",
+      "invalid_province_in_country": "не є дійсною провінцією в %{country}",
+      "invalid_state_in_country": "не є дійсною областю в %{country}",
+      "invalid_region_in_country": "не є дійсним регіоном в %{country}",
+      "less_than_or_equal_to": "має бути менше або дорівнювати %{count}",
+      "not_supported": "не підтримується",
+      "full_name_required": "Введіть ім'я та прізвище",
+      "invalid_for_card_type": "недійсний",
+      "invalid_type": "Вибачте, ми не приймаємо карт такого типу",
+      "invalid_format": "формат недійсний",
+      "expired": "закінчився термін дії",
+      "invalid_start_date_or_issue_number_for_debit": "Потрібна дійсна дата початку або номер випуску",
+      "invalid_expiry_year": "не є дійсним роком закінчення терміну дії",
+      "reset_password_html": "Ця електронна адреса вже пов’язана з наявним обліковим записом. Якщо це ваш обліковий запис, ви можете <a href=\"/account/login#recover\">скинути свій пароль</a>"
     },
     "notices": {
       "customer": {
@@ -1803,6 +1883,54 @@
         "stock_problems_html": "Один або кілька товарів більше недоступні. Ми надали <a href=\"%{link}\">оновлений кошик</a>.",
         "changed": "Кошик змінено",
         "items_changed": "Один або кілька елементів змінилися."
+      }
+    },
+    "pagination": {
+      "previous": "Попередній",
+      "next": "Далі"
+    },
+    "links": {
+      "powered_by_shopify": "Працює на Shopify",
+      "learn_more": "Дізнатись більше"
+    },
+    "feed": {
+      "more": "Більше"
+    },
+    "attributes": {
+      "email": "електронна пошта",
+      "password": "пароль",
+      "password_confirmation": "Підтвердження паролю",
+      "first_name": "Ім'я",
+      "last_name": "прізвище",
+      "body": "тіло",
+      "signature": "Адреса"
+    },
+    "addresses": {
+      "zip_code": "Поштовий індекс",
+      "postal_code": "Поштовий індекс",
+      "postcode": "Поштовий індекс",
+      "pincode": "Пін-код",
+      "region": "Регіон",
+      "prefecture": "Префектура",
+      "province": "Провінція",
+      "state": "Штат",
+      "state_and_territory": "Штат/територія",
+      "county": "Округ",
+      "emirate": "Емірат",
+      "governorate": "Губернаторство",
+      "confirm": "Ви впевнені, що хочете видалити цю адресу?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Рекомендовано",
+        "best_selling": "Найкращий продаж",
+        "az": "За алфавітом, А-Я",
+        "za": "За алфавітом, від Я до А",
+        "price_ascending": "Ціна, від низької до високої",
+        "price_descending": "Ціна, від високої до низької",
+        "date_ascending": "Дата, від старих до нових",
+        "date_descending": "Дата, від нових до старих",
+        "most_relevant": "Найбільш доречні"
       }
     }
   },
@@ -2386,7 +2514,8 @@
     },
     "account_information": {
       "email_update_success_modal": {
-        "description": "Електронну пошту успішно оновлено. Переспрямовуємо на сторінку входу."
+        "description": "Електронну пошту успішно оновлено. Переспрямовуємо на сторінку входу.",
+        "title": "Підтвердьте електронну пошту"
       },
       "profile_update_confirmation_message": "Профіль оновлено",
       "email_update_confirmation_message": "Електронну пошту оновлено на {{email}}",
@@ -2398,7 +2527,71 @@
           "loading_accessibility_label": "Завантаження людей"
         }
       },
-      "add_button": "Додати"
+      "add_button": "Додати",
+      "loading_accessibility_message": "Завантаження інформації про обліковий запис",
+      "loading_finished_accessibility_message": "Інформацію облікового запису завантажено",
+      "profile_card": {
+        "cancel": "Скасувати",
+        "cancel_accessibility_label": "Скасувати редагування профілю",
+        "edit": "Редагувати",
+        "edit_accessibility_label": "Редагувати профіль",
+        "email_help_text": "Електронний лист не може бути відредагований",
+        "editable_email_help_text": "Цей електронний лист використовується для входу та оновлень замовлень.",
+        "first_name": "Ім'я",
+        "last_name": "Прізвище",
+        "email": "Електронний лист",
+        "no_name_provided_accessibility_label": "Ім'я не додано",
+        "phone_number_help_text": "Номер телефону не можна редагувати",
+        "save": "Зберегти",
+        "save_accessibility_label": "Зберегти профіль",
+        "title": "Профіль",
+        "errors": {
+          "name_too_long": "{{fieldName}} занадто довгий (максимальна довжина — 255 символів)",
+          "name_cannot_contain_url": "{{fieldName}} не може містити URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} не може містити HTML-тегів",
+          "email_cant_be_blank": "Електронна пошта не може бути порожньою",
+          "invalid_email_format": "Введіть дійсну адресу електронної пошти"
+        }
+      },
+      "verify_current_email_modal": {
+        "cancel_button": "Скасувати",
+        "cancel_button_accessibility_label": "Скасувати редагування профілю",
+        "description": "Введіть 6-значний код, надісланий на вашу початкову електронну пошту:",
+        "email_resend_button_accessibility_label": "Надіслати код підтвердження повторно",
+        "title": "Підтвердьте, що це ви.",
+        "verify_button": "Далі",
+        "verify_button_accessibility_label": "Підтвердьте свою поточну електронну пошту"
+      },
+      "verify_new_email_modal": {
+        "title": "Підтвердьте свою нову електронну адресу",
+        "description": "Тепер введіть 6-значний код, надісланий на вашу нову електронну пошту:",
+        "one_time_password_label": "6-значний код",
+        "email_resend_button": "Надіслати код повторно",
+        "email_resend_button_accessibility_label": "Надіслати код підтвердження повторно",
+        "verify_button": "Перевірити",
+        "verify_button_accessibility_label": "Підтвердьте одноразовий пароль",
+        "cancel_button": "Скасувати",
+        "cancel_button_accessibility_label": "Скасувати редагування профілю",
+        "email_resend_button_success_toast_message": "Код підтвердження надіслано",
+        "email_resend_button_failure_banner_message": "Не вдалося надіслати код підтвердження"
+      },
+      "marketing_preferences": {
+        "email_label": "Електронний лист",
+        "pending_confirmation": "Натисніть посилання у своєму електронному листі, щоб підтвердити.",
+        "resend_email": "Надіслати листа повторно",
+        "resend_email_success": "Посилання надіслано",
+        "title": "Маркетингові переваги",
+        "unsubscribe_confirmation": {
+          "cancel": "Скасувати",
+          "description": "Ви більше не отримуватимете маркетингові електронні листи від {{shopName}}",
+          "title": "Відмовитися від розсилки?",
+          "unsubscribe": "Відписатися"
+        },
+        "update_error": {
+          "description": "Виникла проблема з оновленням ваших маркетингових налаштувань. Спробуйте оновити цю сторінку або перевірте своє інтернет-з’єднання."
+        },
+        "update_success": "Налаштування маркетингових переваг оновлено"
+      }
     },
     "order_details": {
       "price_before_discount_accessibility_label": "Початкова ціна",
@@ -2743,6 +2936,65 @@
         "edit_current_payment_method": "Редагувати поточний спосіб оплати",
         "edit_selected_payment_method": "Редагувати вибраний спосіб оплати"
       }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Сховати меню \"Обліковий запис\"",
+        "show_accessibility_label": "Показати меню облікового запису",
+        "nav_accessibility_label": "Навігація обліковим записом",
+        "open_menu_accessibility_label": "Відкрити навігацію облікового запису",
+        "close_menu_accessibility_label": "Навігація по закриттю облікового запису",
+        "label": "Обліковий запис",
+        "loading_message": "Завантаження навігації облікового запису"
+      },
+      "action_menu_accessibility_label": "Більше дій",
+      "back_button_accessibility_label": "Назад",
+      "go_to_store_link": "Йди до магазину",
+      "orders_link_label": "Замовлення",
+      "subscriptions_link_label": "Підписки",
+      "close_menu_accessibility_label": "Закрити головну навігацію",
+      "contact_email_subject": "Звернення з інтернет-магазину {{shopName}}",
+      "contact_link": "Контактна інформація",
+      "delete_confirmation": {
+        "cancel": "Скасувати",
+        "delete": "Видалити"
+      },
+      "dismiss_toast": "Відхилити",
+      "document_title": "{{sectionName}} - {{shopName}} - Обліковий запис",
+      "loading_message": "Завантаження",
+      "loading_policy_content_accessibility_label": "Завантаження вмісту політики",
+      "loading_section_accessibility_label": "Завантаження {{sectionName}}",
+      "policy_load_error": "Не вдалося завантажити {{policyName}}",
+      "policy_try_again": "Спробуйте ще раз",
+      "log_out_link": "Вийти",
+      "logout_overlay_label": "Вихід із системи...",
+      "nav_label_accessibility_label": "Головна навігація",
+      "navigation_accessibility_message": "Ви перейшли до {{sectionName}}",
+      "open_menu_accessibility_label": "Відкрити головне меню",
+      "shop_logo_accessibility_label": "{{shopName}} логотип",
+      "store_credit_accessibility_label": "{{formattedBalance}} кредит магазину",
+      "store_credit_balances_list_accessibility_label": "Залишки на рахунках магазинів",
+      "store_credit_multi_currency_accessibility_label": {
+        "one": "{{formattedBalance}} та ще {{count}} кредитних балів в магазині",
+        "other": "{{formattedBalance}} та ще {{count}} валют зберігають кредит"
+      },
+      "settings_link": "Налаштування",
+      "country_switcher_toast_message": "Країна змінена на {{countryName}}",
+      "switch_country": "Змінити країну",
+      "no_countries_found": "Країн не знайдено",
+      "location_switcher_toast_message": "Місцеположення змінено на {{locationName}}",
+      "switch_location": "Змінити місце розташування",
+      "no_locations_found": "Місця не знайдено",
+      "try_new_search": "Спробуйте новий пошук",
+      "view_details": "Переглянути деталі",
+      "company_location": "Місцезнаходження компанії",
+      "search": "Пошук",
+      "skip_to_content": "Перейти до вмісту"
+    },
+    "announcement_bar": {
+      "expand_label": "Розгорнути панель оголошень",
+      "collapse_label": "Згорнути панель оголошень",
+      "close_label": "Закрити панель оголошень"
     }
   },
   "general": {
