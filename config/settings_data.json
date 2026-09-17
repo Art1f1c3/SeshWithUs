@@ -161,14 +161,24 @@
       },
       "product-template": {
         "type": "product-template",
-        "settings": {}
+        "settings": {
+          "skip_first_product_image": false,
+          "product_image_type": "portrait",
+          "show_vendor": false,
+          "show_quantity_selector": true,
+          "social_sharing_products": false
+        }
       },
       "collection-template": {
         "type": "collection-template",
         "settings": {
           "product_image_type": "portrait",
           "product_image_size": "medium",
-          "product_image_spacing": false
+          "product_image_spacing": false,
+          "vendor_enable": false,
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "pagination_type": "numbers"
         }
       }
     },
