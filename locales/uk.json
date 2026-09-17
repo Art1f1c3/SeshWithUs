@@ -1357,8 +1357,105 @@
           "prepaid_initial_order_discounted": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}",
           "prepaid_initial_order_discounted_with_per_delivery_price": "Вартість першої доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "Спершу вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}, потім %{shipping_price} %{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім %{shipping_price} %{billing_cycle}"
-        }
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Включено",
+          "recurring_order_shipping_price": "з наступним: %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Перше замовлення включено, далі %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (вартість однієї доставки: %{per_delivery_price}), далі %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Перше замовлення безкоштовно",
+            "other": "Перші %{count} замовлень безкоштовні"
+          },
+          "free_for_first_n_order": {
+            "one": "Для першого порядку",
+            "other": "На перші %{count} замовлень"
+          }
+        },
+        "one_time_purchase_shipping": "Одноразова доставка",
+        "duties_and_taxes_title": "Мита та податки",
+        "shipping_information_required_notice": "Потрібна інформація про доставку. {{link}}.",
+        "shipping_information_redirect_link": "Введіть вашу інформацію сюди",
+        "loading_progressive_rates": "Пошук інших ставок…",
+        "no_other_methods_available": "Інших методів немає",
+        "duties_and_taxes_options": {
+          "ddu_title": "Оплата при доставці",
+          "ddu_caption": "Може стягуватися додаткова плата",
+          "ddp_title": "Оплатіть зараз",
+          "ddp_caption": "Без додаткових комісій за доставку"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}",
+          "with_separator": "%{rest}, %{current},",
+          "combination": "залишилось %{rest} і поточних %{current}"
+        },
+        "shipping_used_as_billing_notice": "Ця адреса також буде використовуватися як ваша платіжна адреса для цього замовлення.",
+        "address_update": "Оновити адресу",
+        "shipping_address_title": "Доставити до",
+        "shipping_address_rollup_accessibility_label": "Варіанти адреси доставки",
+        "third_party_address_timeout": "Неможливо завантажити адреси. Повторіть спробу або використайте іншу адресу.",
+        "third_party_address_error": "Сталася помилка під час завантаження вибору адреси. Введіть адресу вручну нижче.",
+        "third_party_payment_timeout": "Не вдається завантажити способи оплати. Повторіть спробу або використайте інший спосіб оплати.",
+        "third_party_payment_error": "Під час завантаження вибору способу оплати сталася помилка. Використайте інший спосіб оплати.",
+        "add_address": "Використати іншу адресу",
+        "add_delivery_instructions": "Додайте вказівки щодо доставки",
+        "edit": "Редагувати",
+        "delete": "Видалити",
+        "back": "Назад",
+        "address_more": "Більше дій для цієї адреси",
+        "address_edit": "Редагувати адресу",
+        "address_delete": "Видалити адресу",
+        "address_confirm": "Ви впевнені, що хочете видалити цю адресу зі свого облікового запису?",
+        "address_default": "Установити за замовчуванням",
+        "address_form": {
+          "add_address": "Додати адресу",
+          "save": "Зберегти",
+          "cancel": "Скасувати",
+          "edit": "Редагувати адресу",
+          "update": "Зберегти зміни",
+          "generic_error": "Виникла проблема зі збереженням вашої адреси. Спробуйте ще раз.",
+          "one_time_address_subtitle": "Використайте одноразову адресу для цього замовлення"
+        },
+        "different_shipping_method_summary": "Введіть іншу адресу доставки, щоб переглянути доступні способи доставки",
+        "invalid_shipping_method_summary": "Введіть дійсну адресу доставки, щоб переглянути доступні способи доставки",
+        "invalid_shipping_method_summary_selected": "Виберіть іншу адресу доставки, щоб переглянути доступні способи доставки",
+        "method_summary": {
+          "incomplete_address_entered": "Введіть повну адресу доставки, щоб переглянути доступні способи доставки",
+          "incomplete_address_selected": "Виберіть повну адресу доставки, щоб переглянути доступні способи доставки"
+        },
+        "local_pickup": {
+          "search_address": "Пошук адреси",
+          "rollup_title": "Місце посадки",
+          "rollup_accessibility_label": "Варіанти місця самовивозу"
+        },
+        "missing_shipping_address": "Відсутня адреса доставки",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} одиниць",
+        "split_shipping_merchandise_quantity_label_additional": "ще +%{quantity}",
+        "split_shipping_merchandise_shipment_number": "Відправлення %{number} з %{total}",
+        "pre_order_ships_now": "Кораблі зараз",
+        "pre_order_ships_later": "Відправлення пізніше",
+        "pre_order_ships_date": "Відправлення %{date}",
+        "split_shipping_shipped_by_shop": "Надіслано від %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Кілька відправлень",
+        "split_shipping_shipping_label": "Метод",
+        "split_shipping_shipment_notice": "Ваше замовлення прибуде протягом %{quantity_shipments}",
+        "split_shipping_first_shipment_notice": "Ваше перше замовлення прибуде протягом %{quantity_shipments}",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} поставок",
+        "split_shipping_multiple_shipment_notice": "Ваше замовлення прибуде кількома відправленнями",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Ваше замовлення прибуде %{quantity} відправленнями",
+        "split_shipping_shipment_count_notice_one_time_purchase": {
+          "one": "Ваше замовлення прибуде в %{count} посилці",
+          "other": "Ваше замовлення прибуде в %{count} відправленнях"
+        },
+        "split_shipping_more_shipping_options": "Більше варіантів доставки",
+        "split_shipping_shipment_number": "Відправлення %{number}",
+        "split_shipping_option_free": "Безкоштовна доставка",
+        "split_shipping_option_lowest_price": "Найнижча ціна",
+        "split_shipping_option_fastest": "Найшвидший",
+        "split_shipping_option_recommended": "Рекомендовано",
+        "split_shipping_option_custom": "На замовлення",
+        "add_shipping_address": "Додати адресу доставки",
+        "add_new_delivery_address": "Додати нову адресу доставки",
+        "choose_new_address": "Оберіть нову адресу"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Сума до сплати за замовлення %{order_name}",
@@ -2363,6 +2460,29 @@
         },
         "geolocation": {
           "permission_not_allowed": "Дозвольте ділитися місцезнаходженням або натомість шукайте."
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Додаткова інформація",
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Особистий митний код",
+          "shipping_credential_cn": "Ідентифікаційний номер мешканця",
+          "tax_credential_it": "Податковий код (необов’язково)",
+          "tax_email_it": "ПЕК (необов'язково)",
+          "tax_credential_cl": "МТЗ",
+          "shipping_credential_cl": "МТЗ",
+          "tax_credential_co": "Cédula/ІПН",
+          "tax_credential_type_co": "Тип посвідчення особи",
+          "shipping_credential_co": "Cédula/ІПН",
+          "shipping_credential_type_co": "Тип посвідчення особи",
+          "tax_credential_cr": "Ідентифікаційний номер/RUT",
+          "shipping_credential_cr": "Ідентифікаційний номер/RUT",
+          "tax_credential_ec": "КІ/РУК/ІВА",
+          "shipping_credential_ec": "КІ/РУК/ІВА",
+          "tax_credential_gt": "ІПН/ПДВ",
+          "shipping_credential_gt": "ІПН/ПДВ"
         }
       }
     },
