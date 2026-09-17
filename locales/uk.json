@@ -820,11 +820,137 @@
         },
         "contracts_update_failed": "Не вдалося оновити деякі договори на підписку",
         "subscription_contracts_updated": "Оновлено {{succeeded}} з {{total}} підписок",
-        "invalid_wallet_type_error": "Недійсний тип гаманця."
+        "invalid_wallet_type_error": "Недійсний тип гаманця.",
+        "title": "Додати спосіб оплати",
+        "button_title": "Додати"
       },
       "three_d_secure": {
         "title": "3D Secure",
         "verification_failed": "Ваш платіж не вдалося підтвердити. Спробуйте ще раз або використайте інший спосіб оплати."
+      },
+      "payment_details": {
+        "billing_title": "Платіжна адреса",
+        "card_info_title": "Дані картки",
+        "payment_method_expiring_on": "Термін дії: {{expiryDate}}",
+        "payment_method_expired_on": "Термін дії сплив {{expiryDate}}",
+        "preauthorized_payments": "Попередньо авторизовані платежі",
+        "close_payment_modal": "Закрити",
+        "close_payment_modal_accessibility_label": "Закрити модальне вікно з даними про платіжний засіб",
+        "payment_method_not_found_error": "Не вдалося знайти спосіб оплати",
+        "payment_details_loading": "Завантаження даних про спосіб оплати",
+        "pre_authorized_payments": "Попередньо авторизовані платежі",
+        "total_amount_of_subscription_line_items_left": "та ще {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} елементів загалом, відображається {{totalItemsToDisplay}} елементів.",
+        "next_payment_due": "Наступний платіж {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Редагувати",
+        "edit_payment_method_button_accessibility_label": "Редагувати спосіб оплати, що закінчується на {{lastDigits}}",
+        "loading_shop_pay": "Завантаження Shop Pay",
+        "invalid_payment_method": "Недійсний метод оплати",
+        "invalid_payment_method_message": "Використайте нову кредитну картку, щоб і надалі отримувати майбутні замовлення.",
+        "replace_payment_method": "Замінити спосіб оплати",
+        "checkout_card_banner": "Цей спосіб оплати можна використовувати лише для попередньо авторизованих платежів. Він не відображатиметься під час оформлення замовлення, якщо ви ввійшли в обліковий запис цього магазину.",
+        "default_checkbox": "Установити за замовчуванням",
+        "default_checkbox_accessibility_label": "Установити цей спосіб оплати як типовий",
+        "replace_payment_method_button": "Замінити"
+      },
+      "edit_payment_method": {
+        "title": "Змінити спосіб оплати",
+        "save_payment_method_button": "Зберегти",
+        "cancel_edit_payment_method_button": "Скасувати",
+        "payment_method_updated_toast": "Метод оплати оновлено",
+        "billing_address": "Платіжна адреса",
+        "billing_address_add_new": "Додати новий",
+        "billing_address_choose_from_list": "Оберіть зі списку",
+        "future_purchases_notice": "Цей спосіб оплати буде збережено для майбутніх покупок.",
+        "generic_error": "Виникла проблема з оновленням. Будь ласка, спробуйте ще раз."
+      },
+      "update_payment_method": {
+        "title": "Оновити платіжний метод",
+        "button_title": "Оновлення",
+        "billing_address": "Платіжна адреса",
+        "disclaimer": "Цей метод оплати буде збережено для майбутніх покупок і може бути використаний для будь-яких регулярних або відкладених платежів.",
+        "error_message": "Неможливо оновити спосіб оплати",
+        "current": "Поточний",
+        "subscriptions_title": "Підписки",
+        "subscriptions_list_accessibility_label": "Список продуктів за підпискою",
+        "pre_orders_title": "Майбутній",
+        "pre_orders_list_accessibility_label": "Список товарів відкладеного замовлення",
+        "resources_list_accessibility_label": "Підписні продукти та продукти з незавершеними замовленнями, що використовують цей спосіб оплати",
+        "resources_card_scroll": "Прокрутіть, щоб переглянути інші позиції",
+        "resources_card_show_more": "Показати ще",
+        "resources_card_show_less": "Показати менше",
+        "loading_form_accessibility_message": "Завантаження форми оновлення платіжного методу",
+        "loading_current_payment_method": "Завантажується поточний метод оплати",
+        "loading_digital_wallets": "Завантаження варіантів цифрового гаманця",
+        "loading_card_fields": "Завантаження полів кредитної картки",
+        "loading_resources": "Завантаження підписок і майбутніх замовлень"
+      },
+      "link_expired": {
+        "message": "Термін дії цього посилання для оновлення вашого способу оплати закінчився.",
+        "update_message": "Термін дії цього посилання для оновлення вашого способу оплати закінчився.",
+        "add_message": "Термін дії цього посилання для додавання способу оплати минув.",
+        "return_home_button": "Повернутися на головну сторінку"
+      },
+      "update_success": {
+        "title": "Метод оплати оновлено",
+        "done_button": "Продовжити покупки"
+      },
+      "add_success": {
+        "title": "Спосіб оплати додано",
+        "done_button": "Продовжити покупки"
+      },
+      "card_fields": {
+        "card_number_label": "Номер карти",
+        "card_number_placeholder": "Номер карти",
+        "name_on_card_label": "Ім'я на картці",
+        "name_on_card_placeholder": "Ім'я на картці",
+        "card_expiry_label": "Термін дії (ММ / РР)",
+        "card_expiry_placeholder": "Термін дії (ММ / РР)",
+        "card_verification_value_label": "Захисний код",
+        "card_verification_value_placeholder": "Захисний код",
+        "card_start_label": "Дата випуску (ММ / РР)",
+        "card_start_placeholder": "Дата випуску (ММ / РР)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Більше інформації",
+          "card_verification_value_explanation_amex": "4-значний код безпеки на лицьовій стороні вашої картки",
+          "card_verification_value_explanation_other": "3-значний код безпеки на звороті вашої картки",
+          "card_verification_value_explanation": "3-значний код безпеки зазвичай знаходиться на звороті вашої картки. Картки American Express мають 4-значний код, розташований на лицьовій стороні.",
+          "card_security_notice": "Усі транзакції є безпечними та зашифрованими."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Введіть своє ім'я точно так, як воно вказано на вашій картці",
+          "credit_card_number_invalid": "Введіть дійсний номер картки",
+          "credit_card_expiry_invalid": "Введіть дійсну дату закінчення терміну дії картки",
+          "credit_card_verification_value_blank": "Введіть CVV або код безпеки вашої картки"
+        },
+        "unavailable": {
+          "text": "Наразі платежі кредитними та дебетовими картками недоступні.",
+          "link_text": "Оновіть цю сторінку",
+          "suffix": "або спробуйте пізніше."
+        }
+      },
+      "payment_delete": {
+        "title": "Видалити платіжний метод",
+        "description_without_replacement": "Цей спосіб оплати більше не буде доступний для майбутніх покупок.",
+        "description_with_replacement": "Видалення цього способу оплати вплине на попередньо авторизовані платежі. Ви можете замінити його іншим способом оплати, щоб продовжувати отримувати майбутні замовлення.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Видалення цього платіжного методу вплине на попередньо авторизовані платежі. Якщо ви не виберете інший платіжний метод, з цього платіжного методу все одно стягуватиметься плата за будь-які непогашені залишки за існуючими замовленнями. Вибір альтернативного платіжного методу дозволить вам отримувати майбутні замовлення за підпискою без перебоїв.",
+          "with_pending_orders": "Видалення цього методу оплати призведе до його видалення з вашого облікового запису, і він більше не буде доступний для майбутніх покупок. Якщо ви не оберете альтернативний метод оплати, з вас все одно буде стягнуто плату за будь-які непогашені залишки за існуючими замовленнями.",
+          "with_subscriptions": "Видалення цього способу оплати вплине на попередньо авторизовані платежі. Замініть його альтернативним способом оплати, щоб продовжувати отримувати майбутні замовлення."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Видалення цього платіжного методу вплине на попередньо авторизовані платежі. Цим платіжним методом і надалі стягуватиметься плата за будь-які непогашені залишки за наявними замовленнями, але ви не отримуватимете майбутні замовлення за підпискою. Додайте альтернативний метод оплати, щоб продовжувати отримувати замовлення за підпискою.",
+          "with_pending_orders": "Видалення цього способу оплати призведе до його видалення з вашого облікового запису, і він більше не буде доступний для майбутніх покупок. Ним все одно буде списано кошти за будь-які непогашені залишки за існуючими замовленнями.",
+          "with_subscriptions": "Видалення цього способу оплати вплине на попередньо авторизовані платежі. Додайте альтернативний спосіб оплати, щоб і надалі отримувати майбутні замовлення."
+        },
+        "payment_method_selector_placeholder": "Виберіть інший спосіб оплати (необов’язково)",
+        "payment_method_selector_no_alternative_payment": "Без методу заміни",
+        "replace_method_with_new_method_description": "Ваш спосіб оплати {{currentPaymentMethodName}} буде видалено та замінено на {{newPaymentMethodName}}.",
+        "error_when_deleting": "Ми приносимо вибачення, але щось пішло не так, і ми не змогли видалити цей спосіб оплати. Будь ласка, спробуйте пізніше або оновіть сторінку.",
+        "delete_and_replace_button": "Видалити й замінити",
+        "delete_and_replace_button_accessibility_label": "Видалити {{currentPaymentMethodName}} і замінити на {{newPaymentMethodName}}.",
+        "deleted_successfully": "Спосіб оплати успішно видалено.",
+        "loading_available_payment_methods_accessibility_label": "Завантаження доступних методів оплати"
       }
     },
     "payment_method_brands": {
@@ -1203,6 +1329,142 @@
         }
       },
       "add_button": "Додати"
+    },
+    "order_details": {
+      "price_before_discount_accessibility_label": "Початкова ціна",
+      "price_after_discount_accessibility_label": "Знижена ціна",
+      "compare_at_sale": "Розпродаж ({{saleAmount}})",
+      "hide_items": "Приховати елементи",
+      "loading": "Завантаження деталей замовлення",
+      "loading_finished_accessibility_message": "Дані замовлення завантажено",
+      "location": "Розташування",
+      "image_gallery": {
+        "next": "Показати наступні елементи",
+        "previous": "Показати попередні позиції",
+        "load_more_items": {
+          "one": "Показати ще {{count}} елементів",
+          "other": "Показати ще {{count}} елементів"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Показати підсумок замовлення",
+        "closed": "Приховати підсумок замовлення"
+      },
+      "no_data": "Жоден",
+      "no_data_provided_accessibility_label": "{{fieldName}} пусте",
+      "not_applicable": "Н/Д",
+      "paid_amount": "Оплачено",
+      "partially_refunded_label": "Частково відшкодовано",
+      "payment_confirmation": {
+        "payment_received": "Дякуємо! Ваш платіж у розмірі {{amount}} отримано.",
+        "full_payment_received": "Дякуємо! Ваш платіж у розмірі {{amount}} отримано, і це замовлення тепер повністю сплачено.",
+        "payment_authorized": "Дякую! Баланс буде оновлено після отримання платежу.",
+        "dismiss_label": "Відхилити підтвердження оплати"
+      },
+      "payment": {
+        "status_in_review": "Оплата після перегляду",
+        "status_unpaid": "Оплата повинна бути здійснена {{date}}",
+        "title": "Оплата",
+        "payment_type": {
+          "gift_card": "Подарункова картка",
+          "store_credit": "Кредит магазину",
+          "money_order": "Грошовий переказ",
+          "cash_on_delivery": "Накладений платіж",
+          "bank_deposit": "Банківський депозит",
+          "manual": "Посібник"
+        },
+        "shop_pay_installments": {
+          "summary": "Оплата частинами",
+          "view_schedule": "Переглянути розклад"
+        },
+        "transactions": {
+          "show_all": "Показати все",
+          "show_less": "Показати менше",
+          "details": "Деталі",
+          "payment_details": "Платіжні реквізити"
+        },
+        "emv_details": {
+          "auth": "АВТ:",
+          "aid": "ДОПОМОГА:",
+          "source": "ДЖЕРЕЛО:"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "title": "Нагадування про оплату частинами Shop Pay",
+        "paid_with_shop_pay_installments": "Оплачено частинами Shop Pay",
+        "description": "Слідкуйте за графіком платежів за допомогою нагадувань у застосунку Shop.",
+        "payment_reminders_button": "Отримуйте нагадування про платежі",
+        "desktop_qr_code_content": {
+          "title": "Шукати нагадування",
+          "description": "Отримуйте нагадування про свої платежі через Shop."
+        }
+      },
+      "refunded_amount": "Повернуто кошти",
+      "request_return_failed": "Виникла проблема з обробкою вашого запиту. Будь ласка, спробуйте ще раз.",
+      "login_card": {
+        "title": "Переглянути деталі замовлення",
+        "resend_link_and_login": "Щоб переглянути деталі свого замовлення, увійдіть або надішліть нове посилання на електронну адресу чи номер телефону, використані під час оформлення замовлення.",
+        "resend_link_only": "Щоб переглянути деталі свого замовлення, надішліть нове посилання на електронну пошту або номер телефону, використаний під час оформлення замовлення.",
+        "log_in": "Увійти",
+        "resend_link": "Надіслати нове посилання",
+        "link_expired": "Термін дії посилання закінчився"
+      },
+      "remaining_amount": "Залишок",
+      "marketing_section_title": "Новини та пропозиції",
+      "marketing_checkbox_label": "Надсилайте мені новини та пропозиції електронною поштою",
+      "marketing_checkmark_label": "Ви підписані на отримання новин та пропозицій електронною поштою",
+      "marketing_pending_confirmation": "Натисніть посилання у своєму електронному листі, щоб підтвердити.",
+      "marketing_resend_email": "Надіслати листа повторно",
+      "marketing_resend_email_success": "Посилання надіслано",
+      "returns": {
+        "expand_events_label": "Показати деталі",
+        "hide_events_label": "Приховати деталі",
+        "ineligible_return_message": "Жоден товар у цьому замовленні не підлягає поверненню.",
+        "ineligible_return_message_when_returned": "Жодні інші товари в цьому замовленні поверненню не підлягають.",
+        "print_shipping_label": "Надрукувати транспортну накладну",
+        "return_and_refund_modal_header": "Політика повернення коштів",
+        "tracking_number": "Номер відстеження:",
+        "exchange_header": "Обмін предметів",
+        "exchange_subheader": "Товари для обміну буде додано до замовлення після завершення повернення."
+      },
+      "shipping": {
+        "address": "Адреса доставки",
+        "address_map_marker": "Адреса доставки",
+        "method": "Спосіб доставки",
+        "method_short": "Метод",
+        "ship_to": "Доставити до",
+        "summary": "Доставка",
+        "free": "Безкоштовно",
+        "free_shipping_discount": "Безкоштовна доставка",
+        "one_time": "Одноразова доставка",
+        "subscription": "Доставка за передплатою"
+      },
+      "pickup": {
+        "pickup": "Пікап",
+        "pickup_location": "Місце посадки",
+        "pickup_point": "Пункт самовивозу"
+      },
+      "show_items": "Показати елементи",
+      "total_savings": "Загальна економія",
+      "show_order_summary": "Показати підсумок замовлення",
+      "hide_order_summary": "Приховати підсумок замовлення",
+      "subtitle": "Підтверджено {{date}}",
+      "subtotal": "Проміжна сума",
+      "subtotal_label_with_quantity": {
+        "one": "Проміжна сума",
+        "other": "Проміжна сума · {{count}} позицій"
+      },
+      "summary_list_title_accessibility_label": "Замовляти позиції",
+      "summary_title": "Підсумок замовлення",
+      "summary_totals_title_accessibility_label": "Загальна сума замовлення",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Завантажте Shop, щоб відстежити посилку",
+        "open_in": "Відкрити в",
+        "open_in_shop": "Відкрити в магазині",
+        "track_order_with_shop": "Відстежуйте замовлення за допомогою Shop",
+        "title_header": "Скануйте телефоном",
+        "real_time_delivery_updates": "Магазин надсилатиме вам оновлення щодо доставки в режимі реального часу, щойно ваше замовлення буде відправлено."
+      }
     }
   },
   "general": {
