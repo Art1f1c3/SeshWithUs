@@ -86,18 +86,23 @@
           </li>
         {% endif %}
         {% if settings.social_fancy_link != blank %}
-          
-        {% endif %}
-      </ul>
-    </div>
-    <div class="grid__item large-up--one-half">
-      <span class="site-footer__copyright">&copy; {{ 'now' | date: '%Y' }}, <a href="/">{{ shop.name }}</a></span>
-      <li>
+          <li>
             <a href="{{ settings.social_fancy_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Fancy' }}">
               <span class="icon icon-fancy" aria-hidden="true"></span>
               <span class="visually-hidden">Fancy</span>
             </a>
           </li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="grid__item large-up--one-half">
+      <li>
+            <a href="{{ settings.social_instagram_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}">
+              <span class="icon icon-instagram" aria-hidden="true"></span>
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+      <span class="site-footer__copyright">&copy; {{ 'now' | date: '%Y' }}, <a href="/">{{ shop.name }}</a></span>
     </div>
     <div class="grid__item large-up--one-quarter text-center">
       {% unless shop.enabled_payment_types == empty %}
