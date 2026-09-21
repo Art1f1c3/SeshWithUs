@@ -4362,7 +4362,7 @@
       "signup_form_success": "Ми надішлемо вам електронний лист безпосередньо перед відкриттям!",
       "admin_link_html": "Ви власник магазину? <a href=\"/admin\" class=\"text-link\">Увійдіть тут</a>",
       "password_link": "Вхід за допомогою пароля",
-      "powered_by_shopify_html": "Цей магазин працюватиме на платформі {{ shopify }}",
+      "powered_by_shopify_html": "",
       "close_modal": "закрити (esc)"
     },
     "social": {
