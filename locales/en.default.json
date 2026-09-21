@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -295,11 +304,22 @@
       "redeem_html": "Use this code at checkout to redeem your {{ value }} gift card",
       "shop_link": "Start shopping",
       "print": "Print",
-      "remaining_html": "{{ balance }} <small>left<\/small>",
+      "remaining_html": "{{ balance }} <small>left</small>",
       "add_to_apple_wallet": "Add to Apple Wallet"
     }
   },
-  "date_formats":{
+  "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "merchandise": {
+            "selling_plan_not_supported": "Subscriptions are not supported."
+          }
+        }
+      }
+    }
   }
 }
