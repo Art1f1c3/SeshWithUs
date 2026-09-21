@@ -95,7 +95,9 @@
         {% endif %}
       </ul>
     </div>
-    
+    <div class="grid__item large-up--one-half">
+      <span class="site-footer__copyright">&copy; {{ 'now' | date: '%Y' }}, <a href="/">{{ shop.name }}</a>.</span>
+    </div>
     <div class="grid__item large-up--one-quarter text-center">
       {% unless shop.enabled_payment_types == empty %}
         {% assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' %}
