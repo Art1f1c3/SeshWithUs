@@ -49,7 +49,11 @@
       {% endif %}
     {% endfor %}
 <li class="drawer-nav__item">
-  TEST LANGUAGE
+  Current: {{ localization.language.iso_code }}<br>
+  Available:
+  {% for language in localization.available_languages %}
+    {{ language.iso_code }} /
+  {% endfor %}
 </li>
     <li class="drawer-nav__spacer"></li>
 
