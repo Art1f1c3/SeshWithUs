@@ -48,44 +48,11 @@
         </li>
       {% endif %}
     {% endfor %}
-<li class="drawer-nav__item">
-  Current: {{ localization.language.iso_code }}<br>
-  Available:
-  {% for language in localization.available_languages %}
-    {{ language.iso_code }} /
-  {% endfor %}
-</li>
+
     <li class="drawer-nav__spacer"></li>
 
-{% if localization.available_languages.size > 1 %}
-  <li class="drawer-nav__item drawer-nav__item--secondary">
-    {% form 'localization', id: 'SidebarLanguageForm' %}
-      <div class="sidebar-language-switcher">
-        {% for language in localization.available_languages %}
-          <button
-            type="submit"
-            name="language_code"
-            value="{{ language.iso_code }}"
-            class="sidebar-language-switcher__link{% if language.iso_code == localization.language.iso_code %} is-active{% endif %}"
-          >
-            {% if language.iso_code == 'uk' %}
-              UA
-            {% elsif language.iso_code == 'en' %}
-              EN
-            {% else %}
-              {{ language.iso_code | upcase }}
-            {% endif %}
-          </button>
 
-          {% unless forloop.last %}
-            <span class="sidebar-language-switcher__separator">/</span>
-          {% endunless %}
-        {% endfor %}
-      </div>
-    {% endform %}
-  </li>
-{% endif %}
-
+    
     {% if shop.customer_accounts_enabled %}
       {% if customer %}
         <li class="drawer-nav__item drawer-nav__item--secondary">
