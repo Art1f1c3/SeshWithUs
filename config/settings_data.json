@@ -111,17 +111,6 @@
       },
       "rich-text": {
         "type": "rich-text",
-        "blocks": {
-          "rich-text-0": {
-            "type": "text",
-            "settings": {
-              "home_page_richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-            }
-          }
-        },
-        "block_order": [
-          "rich-text-0"
-        ],
         "settings": {}
       },
       "featured-collection": {
