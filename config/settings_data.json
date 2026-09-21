@@ -181,12 +181,12 @@
     "blocks": {
       "15912215999290715800": {
         "type": "shopify://apps/orbe-geolocation/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "modal_closeButton": false,
-          "option_flag_style": "none",
-          "option_currency_type": "none",
+          "option_flag_style": "circle",
+          "option_currency_type": "only_flag",
           "option_language": true,
           "option_search_country": false,
           "title": "Are you in {country}?",
