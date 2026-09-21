@@ -4493,7 +4493,14 @@
       "quantity": "Кількість",
       "add_to_cart": "Додати в кошик",
       "back": "Назад",
-      "full_details": "Повні деталі"
+      "full_details": "Повні деталі",
+      "sold_out": "Продано",
+      "on_sale": "Розпродаж",
+      "unavailable": "Недоступно"
+    },
+    "general": {
+      "sale_price": "Цiна зiзнижкою",
+      "regular_price": "Цiна без знижки"
     }
   },
   "gift_cards": {
