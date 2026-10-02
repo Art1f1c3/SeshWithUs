@@ -179,8 +179,8 @@
       "featured-collection"
     ],
     "blocks": {
-      "18128612654622612671": {
-        "type": "shopify://apps/selecty/blocks/app-embed/a005a4a7-4aa2-4155-9c2b-0ab41acbf99c",
+      "14864472795351093606": {
+        "type": "shopify://apps/walnut-checkout-faces-dark/blocks/walnut-checkout/01a0fd62-c430-7ecd-ae02-deeb5708facb",
         "disabled": false,
         "settings": {}
       }
